@@ -1,0 +1,76 @@
+---
+layout: base
+title: julia elman
+id: homepage
+---
+<header>
+	<span class="intro">THIS IS...</span>
+	<h1>{{ page.title }}</h1>
+	<p>Designer/Developer working at <a href="http://caktusgroup.com/">Caktus Consulting Group</a> in the beautiful state of North Carolina.</p>
+	<ul class="social">
+		<li>
+			<a href="https://twitter.com/juliaelman/">
+				<img src="/static/images/twitter.png" alt="Follow me on Twitter">
+			</a>
+		</li>
+        <li>
+        	<a href="https://plus.google.com/109921980369404460846/">
+        		<img src="/static/images/google.png" alt="Follow me on Google Plus">
+        	</a>
+        </li>
+        <li>
+        	<a href="https://github.com/juliaelman">
+        		<img src="/static/images/github.png" alt="Follow me on Github">
+        	</a>
+        </li>
+        <li>
+        	<a href="http://dribbble.com/juliaelman/">
+        		<img src="/static/images/dribbble.png" alt="Follow me on Dribbble">
+        	</a>
+        </li>
+        <li>
+        	<a href="http://www.linkedin.com/in/juliaelman">
+        		<img src="/static/images/linkedin.png" alt="Connect with me on LinkedIN">
+        	</a>
+        </li>
+    </ul>
+</header>
+
+<div class="posts">
+	<h2>posts</h2>
+	{% for post in site.posts %}
+	  	<article>
+		    {% unless post.next %}
+		      <h3>{{ post.date|date: '%Y' }}</h3>
+		    {% else %}
+		      	{% capture year %}{{ post.date|date: '%Y' }}{% endcapture %}
+		      	{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+		      	{% if year != nyear %}
+		        	<h3>{{ post.date|date: '%Y' }}</h3>
+		      	{% endif %}
+		    {% endunless %}
+		    <p>
+		    	<a href="{{ post.url }}">{{ post.title }}</a>
+		    </p>
+		</article>
+	{% endfor %}
+</div>
+
+<div class="talks">
+	<h2>talks</h2>
+	<article>
+		<a href="http://lanyrd.com/2013/pycon/scdyym/">
+			PyCon 2013 // Developers and Designers: Collaborating on your Python project
+		</a>
+	</article>
+	<article>
+		<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
+			PyCarolinas 2012 // Working with Designers
+		</a>
+	</article>
+	<article>
+		<a href="http://lanyrd.com/2012/djangocon-us/sxbyd/">
+			DjangoCon 2012 // Is Django for Designers?
+		</a>
+	</article>
+</div>

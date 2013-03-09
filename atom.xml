@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Julia Elman</title>
+  <link href="http://juliaelman.com/atom.xml" rel="self"/>
+  <link href="http://juliaelman.com/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://juliaelman.com/</id>
+  <author>
+    <name>Julia Elman</name>
+    <email>julia.elman@gmail.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="http://juliaelman.com{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://juliaelman.com{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+
+</feed>
