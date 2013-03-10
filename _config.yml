@@ -1,3 +1,4 @@
-markdown: kramdown
+markdown: rdiscount
+safe: true
 pygments: true
 permalink: /:year/:month/:day/:title
