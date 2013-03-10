@@ -21,6 +21,8 @@
 
 @red: #cd0000;
 
+@emerald: #098960;
+
 @gray: #333333;
 @gray10: lighten(#333333, 10%);
 @gray20: lighten(#333333, 20%);
@@ -154,7 +156,7 @@ footer {
 /* Homepage
 ==================== */
 body#homepage {
-	background-color: #098960;
+	background-color: @emerald;
 	color: @white;
 	a { color: @white; }
 	header {
@@ -246,7 +248,19 @@ body#thanks {
 		.container;
 		p { margin: 1em 0; }
 		ul {
-			li { margin-bottom: 10px; }
+			margin-top: 25px;
+			li { 
+				margin-bottom: 10px; 
+				a {
+					font-weight: bold;
+				}
+			}
 		}
 	}
+}
+
+/* 404
+==================== */
+body#404 {
+	p { margin-bottom: 1em; }
 }
