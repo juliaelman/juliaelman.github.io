@@ -86,7 +86,6 @@ p code {
 }
 a {
   text-decoration: none;
-  font-weight: bold;
   color: #4d4d4d;
 }
 a:hover {
@@ -119,7 +118,7 @@ footer {
   display: block;
   max-width: 800px;
   margin: auto;
-  padding: 10px 0;
+  padding: 35px 0 10px 0;
   font-size: 13px;
 }
 footer span {
@@ -172,7 +171,7 @@ body#homepage header .intro {
 }
 body#homepage ul.social {
   zoom: 1;
-  padding: 10px 0;
+  padding: 10px 0 25px;
 }
 body#homepage ul.social:before {
   content: '';
@@ -201,19 +200,15 @@ body#homepage .talks {
   display: block;
   max-width: 800px;
   margin: auto;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 body#homepage .posts article,
 body#homepage .talks article {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 body#homepage .posts article h3,
 body#homepage .talks article h3 {
   padding-top: 10px;
-}
-body#homepage .posts a,
-body#homepage .talks a {
-  font-weight: bold;
 }
 /* Posts
 ==================== */
@@ -236,6 +231,9 @@ body#post-detail .post img {
 }
 body#post-detail .post p {
   margin-bottom: 1em;
+}
+body#post-detail .post p a {
+  font-weight: bold;
 }
 body#post-detail .post ul {
   list-style: disc;
