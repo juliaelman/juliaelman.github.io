@@ -13,12 +13,13 @@ id: post-detail
 
 <div class="post">
     {{ content }}
-    {% comment %}
+    {% if page.comments %} 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'juliaelman'; // Required - Replace example with your forum shortname
-        var disqus_developer = 1;
+        var disqus_url = "http://juliaelman.com{{ page.url }}";
+        var disqus_title = "{{ page.title | escape }}";
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
@@ -28,5 +29,5 @@ id: post-detail
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    {% endcomment %}
+    {% endif %}
 </div>

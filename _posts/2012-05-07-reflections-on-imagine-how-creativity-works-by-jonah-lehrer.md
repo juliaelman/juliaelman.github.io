@@ -2,6 +2,7 @@
 layout: post
 title: reflections on imagine how creativity works by jonah lehrer
 permalink: /blog/2012/may/7/reflection-imagine-how-creativity-works/
+comments: false
 ---
 
 This past April, I had the pleasure of attending [Switchpoint](http://www.switchpointideas.com/) in Saxapahaw, North Carolina. The conference brought together people from all walks of life. American beat poets, global health workers, an African midwife and a Kenyan tech advocate all came together in one space for one day to see what would happen. It was pretty awesome.

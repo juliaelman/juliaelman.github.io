@@ -4,7 +4,7 @@
   <title>Julia Elman</title>
   <link href="http://juliaelman.com/atom.xml" rel="self"/>
   <link href="http://juliaelman.com/"/>
-  <updated>2013-03-10T22:20:45-04:00</updated>
+  <updated>2013-03-10T22:40:11-04:00</updated>
   <id>http://juliaelman.com/</id>
   <author>
     <name>Julia Elman</name>
@@ -218,8 +218,7 @@ And then, the computer lab started drawing my attention. This was the age of Nap
 
 &lt;p&gt;I am constantly working on improving the way I set-up my projects file structure. Here is how I try to keep things clean:&lt;/p&gt;
 
-&lt;div&gt;
-  &lt;pre&gt;&lt;code class='html'&gt;myproject/
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;myproject/
     apps/
         django-showcase/
     dev/
@@ -232,8 +231,8 @@ And then, the computer lab started drawing my attention. This was the age of Nap
        stylesheets/
        scripts/
     templates/
-    urls.py&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+    urls.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;First up, is the top level folder name of your Django project. I'm calling this one &lt;code&gt;myproject&lt;/code&gt;.&lt;/p&gt;
