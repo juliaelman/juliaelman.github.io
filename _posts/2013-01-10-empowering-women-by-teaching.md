@@ -1,6 +1,7 @@
 ---
 layout: post
 title: empowering women by teaching
+permalink: /blog/2013/jan/10/empowering-women-by-teaching/
 ---
 
 Many folks have been asking the following question: how to get more women involved in various programming communities? This questioning has led to great discussions about [subsidized childcare at tech conferences](http://pycon.blogspot.com/2012/11/survey-subsidized-childcare-at-pycon.html) and more focus on diversity in programming.

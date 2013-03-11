@@ -1,6 +1,7 @@
 ---
 layout: post
 title: thoughts after attending my first PyCon
+permalink: /blog/2012/mar/13/my-first-pycon/
 ---
 
 A few months ago, I was waiting outside of the Free State Brewery to meet my friend [Adam](http://www.adamfast.com/) for lunch. It was going to be one of the last times I got to eat there before my move to the East Coast. While burrowing into my phone while I waited, I heard a "Hey Julia" and looked up to see [Jacob](http://jacobian.org/), [Frank](http://www.frankwiles.com/) and [Jeff](http://twitter.com/webology/). We caught up for a bit and then the subject of attending PyCon came up.

@@ -4,7 +4,7 @@
   <title>Julia Elman</title>
   <link href="http://juliaelman.com/atom.xml" rel="self"/>
   <link href="http://juliaelman.com/"/>
-  <updated>2013-03-10T21:23:01-04:00</updated>
+  <updated>2013-03-10T22:20:45-04:00</updated>
   <id>http://juliaelman.com/</id>
   <author>
     <name>Julia Elman</name>
@@ -14,9 +14,9 @@
   
   <entry>
     <title>empowering women by teaching</title>
-    <link href="http://juliaelman.com/2013/01/10/empowering-women-by-teaching"/>
+    <link href="http://juliaelman.com/blog/2013/jan/10/empowering-women-by-teaching/"/>
     <updated>2013-01-10T00:00:00-05:00</updated>
-    <id>http://juliaelman.com/2013/01/10/empowering-women-by-teaching</id>
+    <id>http://juliaelman.com/blog/2013/jan/10/empowering-women-by-teaching</id>
     <content type="html">&lt;p&gt;Many folks have been asking the following question: how to get more women involved in various programming communities? This questioning has led to great discussions about &lt;a href=&quot;http://pycon.blogspot.com/2012/11/survey-subsidized-childcare-at-pycon.html&quot;&gt;subsidized childcare at tech conferences&lt;/a&gt; and more focus on diversity in programming.&lt;/p&gt;
 
 &lt;p&gt;My answer: Teach women to program.&lt;/p&gt;
@@ -35,9 +35,9 @@
   
   <entry>
     <title>an or a django template filter</title>
-    <link href="http://juliaelman.com/2012/07/11/an-or-a-django-template-filter"/>
+    <link href="http://juliaelman.com/blog/2012/07/11/an-or-a-django-template-filter"/>
     <updated>2012-07-11T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2012/07/11/an-or-a-django-template-filter</id>
+    <id>http://juliaelman.com/blog/2012/07/11/an-or-a-django-template-filter</id>
     <content type="html">&lt;p&gt;I find that most projects are created out of need. You either look for something that does what you need, come up with an idea, find something that almost does what you want or both. That is how I created a new filter: anora.&lt;/p&gt;
 
 &lt;p&gt;I started out by looking for a template tag or filter that would determine whether or not to us &quot;an&quot; or &quot;a&quot; based on the contextual value of a given word. Django snippets returned a tag that Chris Beaven (aka SmileyChris) created that does this based on two regular expressions: &lt;a href=&quot;http://djangosnippets.org/snippets/1519/&quot;&gt;http://djangosnippets.org/snippets/1519/&lt;/a&gt;&lt;/p&gt;
@@ -59,9 +59,9 @@
   
   <entry>
     <title>a post post</title>
-    <link href="http://juliaelman.com/2012/06/24/a-post-post"/>
+    <link href="http://juliaelman.com/blog/2012/jun/24/post-post/"/>
     <updated>2012-06-24T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2012/06/24/a-post-post</id>
+    <id>http://juliaelman.com/blog/2012/jun/24/a-post-post</id>
     <content type="html">&lt;p&gt;I've been fairly silent over the past few weeks. Some of that has been personal time and some for work. Working on something that I hope will be helpful to those of us who are at a loss about the issue of sexual harassment in the tech community. What can we really do and where do we start?&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://pauladamsmith.com/&quot;&gt;Paul Smith&lt;/a&gt; contacted me shortly after my post with an idea his wife, Michelle, had. Why don't we create a pledge where people from the Django community can state that they will no longer attend conferences and events without a code of conduct in place? A simple form where members of the community can sign and pledge their support?&lt;/p&gt;
@@ -76,9 +76,9 @@
   
   <entry>
     <title>let's get a little louder</title>
-    <link href="http://juliaelman.com/2012/06/03/lets-get-a-little-louder"/>
+    <link href="http://juliaelman.com/blog/2012/jun/3/lets-get-little-louder/"/>
     <updated>2012-06-03T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2012/06/03/lets-get-a-little-louder</id>
+    <id>http://juliaelman.com/blog/2012/jun/3/lets-get-a-little-louder</id>
     <content type="html">&lt;p&gt;A month ago, I attended a design/front end development conference. I was so excited to attend. My employer even sponsored the conference to show their support.&lt;/p&gt;
 
 &lt;p&gt;I saw that a fellow Django colleague was speaking at the conference. Having attended DjangoCon and PyCon, where I knew lots of the attendees, this would be a conference in which I knew no one. It was cool to see someone from my community attending and I decided to connect with him. We caught up at the conference and talked in between sessions.&lt;/p&gt;
@@ -110,10 +110,10 @@
   </entry>
   
   <entry>
-    <title>reflectons on imagine how creativity works by jonah lehrer</title>
-    <link href="http://juliaelman.com/2012/05/07/reflections-on-imagine-how-creativity-works-by-jonah-lehrer"/>
+    <title>reflections on imagine how creativity works by jonah lehrer</title>
+    <link href="http://juliaelman.com/blog/2012/may/7/reflection-imagine-how-creativity-works/"/>
     <updated>2012-05-07T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2012/05/07/reflections-on-imagine-how-creativity-works-by-jonah-lehrer</id>
+    <id>http://juliaelman.com/blog/2012/may/7/reflections-on-imagine-how-creativity-works-by-jonah-lehrer</id>
     <content type="html">&lt;p&gt;This past April, I had the pleasure of attending &lt;a href=&quot;http://www.switchpointideas.com/&quot;&gt;Switchpoint&lt;/a&gt; in Saxapahaw, North Carolina. The conference brought together people from all walks of life. American beat poets, global health workers, an African midwife and a Kenyan tech advocate all came together in one space for one day to see what would happen. It was pretty awesome.&lt;/p&gt;
 
 &lt;p&gt;One of the speakers of the day was &lt;a href=&quot;http://appliedpoetics.com/&quot;&gt;Jonathan Opp&lt;/a&gt;. He spoke of branding and his experience at Red Hat and the Road Tour he helped develop. I got the chance to talk with him during the conference and how I was starting to try to draw more often. He mentioned a good book that he had recently read called, &quot;Imagine: How Creativity Works&quot; by Jonah Lehrer and highly recommend I read it. I tend to listen when smart good folks tell me to do something, and most of the time they are right.&lt;/p&gt;
@@ -146,9 +146,9 @@ And then, the computer lab started drawing my attention. This was the age of Nap
   
   <entry>
     <title>review of cosmonaut stylus</title>
-    <link href="http://juliaelman.com/2012/03/20/review-of-cosmonaut-stylus"/>
+    <link href="http://juliaelman.com/blog/2012/mar/20/review-cosmonaut-stylus-pen/"/>
     <updated>2012-03-20T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2012/03/20/review-of-cosmonaut-stylus</id>
+    <id>http://juliaelman.com/blog/2012/mar/20/review-of-cosmonaut-stylus</id>
     <content type="html">&lt;p&gt;I've been looking for a way to create quick sketches digitally. Just an easy way to share, create and mock-up ideas without having touch Photoshop. After going to &lt;a href=&quot;http://gazit.me/&quot;&gt;Idan Gazit's&lt;/a&gt; talk on sketching at PyCon a few weeks ago, I was really impressed with the pen he used. He said it was the &lt;a href=&quot;http://www.studioneat.com/products/cosmonaut&quot;&gt;Cosmonaut created by Studio Neat&lt;/a&gt;. I decided to order it to give it a try and here is my first impression.&lt;/p&gt;
 
 &lt;p&gt;I am a sucker for packaging and product design. If something comes in a cool package, I'm all over it. The box that the Cosmonaut comes in is a simple light weight chip board and has all sorts of cute space stuff printed on it! The pen looks like it's ready for launch.&lt;/p&gt;
@@ -169,9 +169,9 @@ And then, the computer lab started drawing my attention. This was the age of Nap
   
   <entry>
     <title>thoughts after attending my first PyCon</title>
-    <link href="http://juliaelman.com/2012/03/12/thoughts-after-attending-my-first-pycon"/>
+    <link href="http://juliaelman.com/blog/2012/mar/13/my-first-pycon/"/>
     <updated>2012-03-12T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2012/03/12/thoughts-after-attending-my-first-pycon</id>
+    <id>http://juliaelman.com/blog/2012/mar/13/thoughts-after-attending-my-first-pycon</id>
     <content type="html">&lt;p&gt;A few months ago, I was waiting outside of the Free State Brewery to meet my friend &lt;a href=&quot;http://www.adamfast.com/&quot;&gt;Adam&lt;/a&gt; for lunch. It was going to be one of the last times I got to eat there before my move to the East Coast. While burrowing into my phone while I waited, I heard a &quot;Hey Julia&quot; and looked up to see &lt;a href=&quot;http://jacobian.org/&quot;&gt;Jacob&lt;/a&gt;, &lt;a href=&quot;http://www.frankwiles.com/&quot;&gt;Frank&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/webology/&quot;&gt;Jeff&lt;/a&gt;. We caught up for a bit and then the subject of attending PyCon came up.&lt;/p&gt;
 
 &lt;p&gt;&quot;Why would I go?&quot;, I said, &quot;I mostly do front-endy kind of stuff.&quot;&lt;/p&gt;
@@ -196,9 +196,9 @@ And then, the computer lab started drawing my attention. This was the age of Nap
   
   <entry>
     <title>sometimes the best thing you can do is walk away</title>
-    <link href="http://juliaelman.com/2011/12/14/sometimes-the-best-thing-you-can-do-is-walk-away"/>
+    <link href="http://juliaelman.com/blog/2011/dec/14/sometimes-best-thing-you-can-do-walk-away/"/>
     <updated>2011-12-14T00:00:00-05:00</updated>
-    <id>http://juliaelman.com/2011/12/14/sometimes-the-best-thing-you-can-do-is-walk-away</id>
+    <id>http://juliaelman.com/blog/2011/dec/14/sometimes-the-best-thing-you-can-do-is-walk-away</id>
     <content type="html">&lt;p&gt;It's late. Way too late for anyone who consistently wakes up somewhere between 5-6am regardless of what day of the week it is.&lt;/p&gt;
 
 &lt;p&gt;Why the heck am I up so late you ask? I've got some coding problems I am trying to solve and can't go to sleep till they are completed! Dag nabbit and harumph.&lt;/p&gt;
@@ -211,14 +211,15 @@ And then, the computer lab started drawing my attention. This was the age of Nap
   
   <entry>
     <title>simple set-up of your django project files</title>
-    <link href="http://juliaelman.com/2011/08/20/simple-setup-of-your-django-files"/>
+    <link href="http://juliaelman.com/blog/2011/aug/20/simple-set-up-of-your-django-project-files/"/>
     <updated>2011-08-20T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2011/08/20/simple-setup-of-your-django-files</id>
+    <id>http://juliaelman.com/blog/2011/aug/20/simple-setup-of-your-django-files</id>
     <content type="html">&lt;p&gt;I like organization. Keeping things clean, simple and easy to find make for a seamless work flow and helps to keep everyone in sync when working on a team.&lt;/p&gt;
 
 &lt;p&gt;I am constantly working on improving the way I set-up my projects file structure. Here is how I try to keep things clean:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;myproject/
+&lt;div&gt;
+  &lt;pre&gt;&lt;code class='html'&gt;myproject/
     apps/
         django-showcase/
     dev/
@@ -231,8 +232,8 @@ And then, the computer lab started drawing my attention. This was the age of Nap
        stylesheets/
        scripts/
     templates/
-    urls.py
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    urls.py&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;First up, is the top level folder name of your Django project. I'm calling this one &lt;code&gt;myproject&lt;/code&gt;.&lt;/p&gt;
@@ -256,9 +257,9 @@ And then, the computer lab started drawing my attention. This was the age of Nap
   
   <entry>
     <title>django-showcase</title>
-    <link href="http://juliaelman.com/2011/08/15/django-showcase"/>
+    <link href="http://juliaelman.com/blog/2011/aug/15/django-showcase/"/>
     <updated>2011-08-15T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2011/08/15/django-showcase</id>
+    <id>http://juliaelman.com/blog/2011/aug/15/django-showcase</id>
     <content type="html">&lt;p&gt;I've been meaning for a while now to get this app up and running on Github. It's a pretty simple, light weight app whose primary purpose is to serve as a base skeletal structure for a showcase of the users work. It can be used for writing samples, photos or almost anything else you'd like to showcase!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/juliaelman/django-showcase&quot;&gt;django-showcase&lt;/a&gt;&lt;/p&gt;
@@ -269,9 +270,9 @@ And then, the computer lab started drawing my attention. This was the age of Nap
   
   <entry>
     <title>and away we go...</title>
-    <link href="http://juliaelman.com/2011/05/20/away-we-go"/>
+    <link href="http://juliaelman.com/blog/2011/may/20/and-away-we-go/"/>
     <updated>2011-05-20T00:00:00-04:00</updated>
-    <id>http://juliaelman.com/2011/05/20/away-we-go</id>
+    <id>http://juliaelman.com/blog/2011/may/20/away-we-go</id>
     <content type="html">&lt;p&gt;It's been a long time in the making, but it's finally here. My website re-design! (insert trumpets blaring here)&lt;/p&gt;
 
 &lt;p&gt;After about 2 design rounds, I finally decided to go with simple and clean. Over my many years of design I find that is always the way to go.&lt;/p&gt;

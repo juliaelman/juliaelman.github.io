@@ -1,6 +1,7 @@
 ---
 layout: post
 title: simple set-up of your django project files
+permalink: /blog/2011/aug/20/simple-set-up-of-your-django-project-files/
 ---
 
 I like organization. Keeping things clean, simple and easy to find make for a seamless work flow and helps to keep everyone in sync when working on a team.

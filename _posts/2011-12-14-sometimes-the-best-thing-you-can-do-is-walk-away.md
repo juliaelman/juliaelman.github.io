@@ -1,6 +1,7 @@
 ---
 layout: post
 title: sometimes the best thing you can do is walk away
+permalink: /blog/2011/dec/14/sometimes-best-thing-you-can-do-walk-away/
 ---
 
 It's late. Way too late for anyone who consistently wakes up somewhere between 5-6am regardless of what day of the week it is.
