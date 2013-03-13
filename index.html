@@ -50,7 +50,10 @@ id: homepage
 		      	{% endif %}
 		    {% endunless %}
 		    <p>
-		    	<a href="{{ post.url }}">{{ post.title }}</a>
+		    	<a href="{{ post.url }}">
+		    		{{ post.title }}
+		    	</a>
+		    	<time>{{ post.date|date: '%d %B' }}</time>
 		    </p>
 		</article>
 	{% endfor %}
@@ -61,22 +64,25 @@ id: homepage
 	<article>
 		<p>
 			<a href="http://lanyrd.com/2013/pycon/scdyym/">
-				PyCon 2013 // Developers &amp; Designers: Collaborating on your Python project
+				Developers &amp; Designers: Collaborating on your Python project
 			</a>
 		</p>
+		<p class="time">2013 PyCon</p>
 	</article>
 	<article>
 		<p>
 			<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
-				PyCarolinas 2012 // Working with Designers
+				Working with Designers
 			</a>
 		</p>
+		<p class="time">2012 PyCarolinas </p>
 	</article>
 	<article>
 		<p>
 			<a href="http://lanyrd.com/2012/djangocon-us/sxbyd/">
-				DjangoCon 2012 // Is Django for Designers?
+				Is Django for Designers?
 			</a>
 		</p>
+		<p class="time">2012 DjangoCon</p>
 	</article>
 </div>

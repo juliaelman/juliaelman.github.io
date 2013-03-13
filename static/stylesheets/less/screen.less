@@ -42,6 +42,12 @@
   &:after { content: ''; display: table; clear: both; }
 }
 
+// Twitter Bootstrap opacity mixin
+.opacity(@opacity) {
+  opacity: @opacity / 100;
+  filter: ~"alpha(opacity=@{opacity})";
+}
+
 // Fonts
 // ====================
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
@@ -79,6 +85,7 @@ h1 	{
 
 h2 	{ 
 	font-size: 80px; 
+	margin-bottom: 10px;
 	@media (max-width: 979px) {
 		font-size: 60px;
 	}
@@ -111,6 +118,7 @@ p 	{
 a 	{ 
 	text-decoration: none;
 	color: @gray10;
+	font-weight: 600;
 	&:hover {
 		text-decoration: underline;
 	}
@@ -147,8 +155,8 @@ header {
 footer {
 	.container;
 	padding: 35px 0 10px 0;
-	span { color: lighten(@red, 40%); }
 	font-size: 13px;
+	span { color: lighten(@red, 40%); }
 	@media (max-width: 600px) {
 		font-size: 12px;
 	}
@@ -205,9 +213,15 @@ body#homepage {
 		padding-bottom: 15px;
 		article {
 			h3 { 
-				padding-top: 10px; 
+				padding: 15px 0 10px 0; 
 			}
 			padding-bottom: 20px;
+			time, .time {
+				display: block;
+				text-transform: uppercase;
+				.opacity(50);
+				font-size: 14px;
+			}
 		}
 	}
 }
@@ -231,13 +245,10 @@ body#post-detail {
 		}
 		p {
 			margin-bottom: 1em;
-			a { font-weight: bold; }
 		}
 		ul {
 			list-style: disc;
-			 li {
-			 	margin: 0 40px;
-			 }
+			li { margin: 0 40px; }
 		}
 	}
 }
@@ -250,12 +261,7 @@ body#thanks {
 		p { margin: 1em 0; }
 		ul {
 			margin-top: 25px;
-			li { 
-				margin-bottom: 10px; 
-				a {
-					font-weight: bold;
-				}
-			}
+			li { margin-bottom: 10px; }
 		}
 	}
 }
