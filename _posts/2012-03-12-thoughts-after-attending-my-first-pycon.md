@@ -1,6 +1,6 @@
 ---
 layout: post
-title: thoughts after attending my first PyCon
+title: thoughts after attending my first pycon
 permalink: /blog/2012/mar/13/my-first-pycon/
 comments: true
 ---
