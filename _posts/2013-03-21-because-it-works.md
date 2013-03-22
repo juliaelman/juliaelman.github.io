@@ -24,7 +24,7 @@ Also, [PyLadies grants](https://us.pycon.org/2013/assistance/) made it possible 
 
 ####activism
 
-In the expo hall, there was an amazing presence of many of the women in tech activist groups. [PyLadies](http://www.pyladies.com/), the [Ada Initiative](http://adainitiative.org/) and [Women Who Code](http://www.meetup.com/Women-Who-Code-SF/) all had booths near each other. It was so cool to watch these spaces become a welcoming hub for all to come together! Each groups activism and support of women in the Python community helps make for a better space for everyone to be in. It was great to see this happening at the conference in real time.
+In the expo hall, there was an amazing presence of many of the women in tech activist groups. [PyLadies](http://www.pyladies.com/), the [Ada Initiative](http://adainitiative.org/), [Open Hatch](https://openhatch.org/) and [Women Who Code](http://www.meetup.com/Women-Who-Code-SF/) all had booths near each other. It was so cool to watch these spaces become a welcoming hub for all to come together! Each groups activism and support of women in the Python community helps make for a better space for everyone to be in. It was great to see this happening at the conference in real time.
 
 ####code of conduct
 
