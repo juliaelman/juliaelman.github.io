@@ -20,7 +20,7 @@ I attended a panel with varying community leaders titled ["Scaling community div
 
 I could not agree more with this sentiment. From my personal experience this year, it has meant a lot more to me to have members of the community reach out directly. I would like to especially thank [Jesse Noller](http://jessenoller.com/), who inspired me to submit a talk proposal in the first place.
 
-Also, [PyLadies grants](https://us.pycon.org/2013/assistance/) made it possible for those to attend the conferece, who otherwise could not because of financial reasons. One of my colleagues from [Girl Develop It RDU](http://www.meetup.com/Girl-Develop-It-RDU/) received one of these grants to come to her first ever PyCon. Because of this, I got to see her face beaming everytime I ran into her at the conference!
+Also, [PyLadies grants](https://us.pycon.org/2013/assistance/) made it possible for those to attend the conference, who otherwise could not because of financial reasons. One of my colleagues from [Girl Develop It RDU](http://www.meetup.com/Girl-Develop-It-RDU/) received one of these grants to come to her first ever PyCon. Because of this, I got to see her face beaming every time I ran into her at the conference!
 
 ####activism
 
@@ -30,7 +30,7 @@ In the expo hall, there was an amazing presence of many of the women in tech act
 
 I have personally [done what I can](http://letsgetlouder.com/) to help make it clear that creating a code of conduct at conferences is imperative. The staff at PyCon greatly understands the importance of having a code of conduct and put that practice to action. 
 
-PyCon had two incidents, of which they handled with both [care](http://pycon.blogspot.com/2013/03/pycons-response-to-inapropriate.html) and [grace](http://pycon.blogspot.com/2013/03/pycon-response-to-inappropriate.html). They were able to react swiftly. The code clearly defined how the conference handles such incidents. Without the code, I am not sure these occurances would have been handled as well as they did. 
+PyCon had two incidents, of which they handled with both [care](http://pycon.blogspot.com/2013/03/pycons-response-to-inapropriate.html) and [grace](http://pycon.blogspot.com/2013/03/pycon-response-to-inappropriate.html). They were able to react swiftly. The code clearly defined how the conference handles such incidents. Without the code, I am not sure these occurrences would have been handled as well as they did. 
 
 These three things are what helped to create a safe and respectful environment at the conference. A place where men, women and children could come together to share their love of Python.
 
