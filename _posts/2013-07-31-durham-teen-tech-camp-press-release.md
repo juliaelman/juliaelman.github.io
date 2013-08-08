@@ -6,9 +6,6 @@ comments: true
 
 FOR IMMEDIATE RELEASE
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/18Lxk1p" data-text="Local Teens Learn Computer Programming Using Raspberry Pi Microcomputers" data-size="large" data-hashtags="teentechcamp, raspberrypi, python">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
 Local Teens Learn Computer Programming Using Raspberry Pi Microcomputers
 
 Durham, NC – [Refresh the Triangle](http://www.meetup.com/refreshthetriangle/) is proud to announce [Teen Tech Camp 2013](http://durhamcountylibrary.org/2013/06/teen-tech-camp-2013/), a one-day event to teach computer programming to area youth. The camp is the second to be hosted by Refresh the Triangle, in partnership with [Durham County Library](http://durhamcountylibrary.org/).
