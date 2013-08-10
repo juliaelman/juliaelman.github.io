@@ -14,7 +14,7 @@ This year, students will learn basic [Python](http://python.org/) computer progr
 
 Along with generous community volunteer support, a grant from the [Python Software Foundation](http://www.python.org/psf/) has made it so that each of the 20 students will receive his or her own Raspberry Pi, books and other materials to help further computer programing education.
 
-Support from the following organizations has also helped to make this event possible: [Ayima](http://www.ayima.com/), [Adzerk](http://www.adzerk.com/), [Caktus Group](http://caktusgroup.com/), [Greenlight Community Broadband](http://www.greenlightnc.com/), [Linux New Media](http://www.linuxnewmedia.com/), [Splatspace](http://splatspace.org/), [Triangle Ecycling](http://www.triangleecycling.com/), [TriLUG](http://www.trilug.org/) and [TriPython](http://trizpug.org/).
+Support from the following organizations has also helped to make this event possible: [Ayima](http://www.ayima.com/), [Adzerk](http://www.adzerk.com/), [Caktus Group](http://caktusgroup.com/), [Greenlight Community Broadband](http://www.greenlightnc.com/), [Linux New Media](http://www.linuxnewmedia.com/), [Splatspace](http://splatspace.org/), [Triangle Ecycling](http://www.triangleecycling.com/), [TriLUG](http://www.trilug.org/), [TriPython](http://trizpug.org/) and [Verified Studios](http://verifiedstudios.com/).
 
 The event will take place Tuesday, August 13, at the Southwest Durham Regional Library (3605 Shannon Rd., Durham, NC 27707) from 10:00AM – 5:00PM.
 
