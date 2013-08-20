@@ -73,8 +73,8 @@ h1, h2 {
 	}
 }
 
-h1 	{ 
-	font-size: 160px; 
+h1 	{
+	font-size: 140px;
 	@media (max-width: 979px) {
 		font-size: 100px;
 	}
@@ -86,8 +86,8 @@ h1 	{
 	}
 }
 
-h2 	{ 
-	font-size: 80px; 
+h2 	{
+	font-size: 80px;
 	margin-bottom: 10px;
 	@media (max-width: 979px) {
 		font-size: 60px;
@@ -96,34 +96,34 @@ h2 	{
 		font-size: 40px
 	}
 }
-h3 	{ 
-	font-size: 30px; 
+h3 	{
+	font-size: 30px;
 	font-weight: 700;
 	@media (max-width: 600px) {
 		font-size: 20px
 	}
 }
 
-h4 	{ 
-	font-size: 24px; 
+h4 	{
+	font-size: 24px;
 	@media (max-width: 600px) {
 		font-size: 18px
 	}
 }
 
-p 	{ 
+p 	{
 	font-weight: 300;
-	line-height: 1.6;
+	line-height: 1.8;
 	@media (max-width: 600px) {
 		font-size: 15px;
-		line-height: 20px;
+		line-height: 1.4;
 	}
 	code {
 		background-color: @gray70;
 	}
 }
 
-a 	{ 
+a 	{
 	text-decoration: none;
 	color: @gray10;
 	font-weight: 600;
@@ -156,7 +156,7 @@ pre {
 
 .container {
 	display: block;
-	max-width: 800px;
+	max-width: 700px;
 	margin: auto;
 }
 
@@ -174,6 +174,8 @@ footer {
 		font-size: 12px;
 	}
 }
+
+hr { border: 1px solid @gray70;}
 
 /* Homepage
 ==================== */
@@ -204,7 +206,7 @@ body#homepage {
 				font-size: 20px;
 				margin-bottom: 8px;
 			}
-		}	
+		}
 	}
 	ul.social {
 		.clearfix;
@@ -212,7 +214,7 @@ body#homepage {
 		li {
 			float: left;
 			margin: auto;
-			img { 
+			img {
 				width: 75px;
 				margin-right: 10px;
 				@media (max-width: 480px) {
@@ -225,8 +227,8 @@ body#homepage {
 		.container;
 		padding-bottom: 15px;
 		article {
-			h3 { 
-				padding: 15px 0 10px 0; 
+			h3 {
+				padding: 15px 0 10px 0;
 			}
 			padding-bottom: 20px;
 			time, .time {
@@ -253,11 +255,9 @@ body#post-detail {
 	.post {
 		.container;
 		img {
-			max-width: 400px;
+			width: 100%;
 			margin: auto;
-			@media (max-width: 480px) {
-				max-width: 300px;
-			}
+			padding-top: 25px;
 		}
 		p {
 			margin-bottom: 1em;
@@ -268,8 +268,8 @@ body#post-detail {
 		ul {
 			list-style: disc;
 			margin-bottom: 1em;
-			li { 
-				margin: 0 25px; 
+			li {
+				margin: 0 25px;
 				line-height: 30px;
 				@media (max-width: 600px) {
 					line-height: 20px;
@@ -296,7 +296,7 @@ body#thanks {
 ==================== */
 body#ruhroh {
 	header {
-		text-align: center;					
+		text-align: center;
 		p { margin-bottom: 1em; }
 	}
 }
