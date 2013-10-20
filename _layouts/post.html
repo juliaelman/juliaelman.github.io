@@ -5,15 +5,15 @@ id: post-detail
 <header>
     <span class="intro">THIS IS...</span>
     <h2><a href="/">julia elman</a></h2>
-    <h3>{{ page.title }}</h3>
     <time datetime="{{ page.date | date_to_xmlschema }} pubdate">
         {{ page.date|date:'%d %B, %Y' }}
     </time>
+    <h3>{{ page.title }}</h3>
 </header>
 
 <div class="post">
     {{ content }}
-    {% if page.comments %} 
+    {% if page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
