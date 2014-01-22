@@ -6,7 +6,7 @@ comments: true
 
 As some of you [may already know](http://exitevent.com/teen-tech-camp-hosts-future-developers-1389.asp), last week I had the honor and privilege to help organize the 2013 Teen Tech Camp in Durham, North Carolina. The event was extremely challenging, fun and one of the most rewarding things I have ever been a part of.
 
-#### The Idea
+#### the idea
 
 The idea for the camp came from my experience at the Teen Tech Camp in 2012. [Refresh the Triangle](http://www.meetup.com/refreshthetriangle/), a community made up of area designers and developers, hosted the camp and focused it around web applications, websites and web design. The kids learned about HTML, CSS, web design and other web-related technologies from local professional technologists.
 
@@ -19,7 +19,7 @@ _Students checking out Raspberry Pi at 2012 Teen Tech Camp_
 
 Since the kids from the previous year seemed so intrigued by the Raspberry Pi, that it seemed only natural to focus this year's event around it. After seeing the initiatives from my colleagues [Barbara](https://twitter.com/bshaurette) and [Katie](https://twitter.com/kcunning) at the [Young Coders](https://us.pycon.org/2013/events/letslearnpython/) tutorial, which focused on teaching [Python](http://python.org/) through Raspberry Pi, I decided to start organizing a similar event for the 2013 Teen Tech Camp.
 
-#### The Planning
+#### the planning
 
 Shortly after returning from [PyCon 2013](https://us.pycon.org/2013/), I spoke with Refresh organizer [Sarah Kahn](https://twitter.com/aarahkahak) about my idea for the next Teen Tech Camp. She was totally psyched about the new angle for the event and we started formulating a game plan to make it all happen.
 
@@ -32,7 +32,7 @@ Other peripherals for the event came from generous donations from businesses lik
 ![Splatspace 3D printed Raspberry Pi cases](/static/images/splatspace-rpi-cases.jpg)
 _3D printed Raspberry Pi cases from [@splatspace](https://twitter.com/splat_space)_
 
-#### The Event
+#### the event
 
 The night before the camp, we set up all of the equipment. I had spent some time testing all of the peripherals weeks ahead of time, but wanted to make sure that everything would be ready the day of. Volunteers from around the Triangle area came to the library to help set up tables and chairs, plug in monitors, tape down cords and test equipment. It was great to get so much support from the community and also see their enthusiasm for this event!
 
@@ -74,7 +74,7 @@ Towards the end of class, we stopped coding and showed each of them how to take 
 ![End of the day photo](/static/images/2013teentechcamp-6.jpg)
 _2013 Teen Tech camp students and their Raspberry Pi's_
 
-#### The Outcome
+#### the outcome
 
 My goal for the 2013 Teen Tech Camp was not to have the students walk out of the library, ready to take on complex computer programming challenges. It was to spark interest in the students and get them excited about learning computer programming. By using varying techniques and providing a safe space for learning, we were able to engage every student at an individual pace. While I know that the students probably did not come away with a deep understanding of computer programming, they did come away with a positive and supportive experience. They will take away the motivation, energy and drive to keep on learning, because someone believes in them. Because  sometimes all you need in order to succeed is someone else telling you, "You got this." and cheering you from the sidelines. Kids need this the most and it's programs like the Teen Tech Camp where we can bring a supportive, nurturing environment, along with a challenging learning experience.
 
