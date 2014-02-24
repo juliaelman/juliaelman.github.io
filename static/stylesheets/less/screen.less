@@ -70,6 +70,7 @@ h1, h2 {
 	font-weight: normal;
 	a {
 		font-weight: normal;
+		text-decoration: none;
 	}
 }
 
@@ -136,11 +137,10 @@ p 	{
 }
 
 a 	{
-	text-decoration: none;
 	color: @gray10;
 	font-weight: 600;
 	&:hover {
-		text-decoration: underline;
+		color: @gray30;
 	}
 }
 
@@ -212,7 +212,12 @@ hr { border: 1px solid @gray70;}
 body#homepage {
 	background-color: @emerald;
 	color: @white;
-	a { color: @white; }
+	a { 
+		color: @white; 
+		&:hover {
+			color: lighten(@emerald, 10%);
+		}
+	}
 	header {
 		p {
 			font-size: 24px;
