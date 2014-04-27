@@ -36,91 +36,90 @@ id: homepage
     </ul>
 </header>
 
-<div class="posts">
-	<h2>posts</h2>
-	{% for post in site.posts %}
-	  	<article>
-		    {% unless post.next %}
-		      <h3>{{ post.date|date: '%Y' }}</h3>
-		    {% else %}
-		      	{% capture year %}{{ post.date|date: '%Y' }}{% endcapture %}
-		      	{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-		      	{% if year != nyear %}
-		        	<h3>{{ post.date|date: '%Y' }}</h3>
-		      	{% endif %}
-		    {% endunless %}
-		    <p>
-		    	<a href="{{ post.url }}">
-		    		{{ post.title }}
-		    	</a>
-		    	<time>{{ post.date|date: '%d %B' }}</time>
-		    </p>
-		</article>
-	{% endfor %}
-</div>
+<div id="content">
+	<div class="posts">
+		<h2>posts</h2>
+		{% for post in site.posts %}
+			{% unless post.next %}
+			  <h3>{{ post.date|date: '%Y' }}</h3>
+			{% else %}
+			  {% capture year %}{{ post.date|date: '%Y' }}{% endcapture %}
+			  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			  {% if year != nyear %}
+			   	<h3>{{ post.date|date: '%Y' }}</h3>
+			  {% endif %}
+			{% endunless %}
+		  <article>
+			  <p>
+			  	<a href="{{ post.url }}">
+			  		{{ post.title }}
+			  	</a>
+			  	<time>{{ post.date|date: '%d %B' }}</time>
+			  </p>
+			</article>
+		{% endfor %}
+	</div>
 
-<div class="talks">
-	<h2>talks</h2>
-	<article>
-		<p>
-			TBD
-		</p>
-		<p class="time">2014 BlendConf</p>
-	</article>
-	<article>
-		<p>
-			<a href="http://2014.djangocon.eu/talks/#talk_25">
-			  Getting RAD with Django
-			</a>
-		</p>
-		<p class="time">2014 DjangoCon EU</p>
-	</article>
-	<article>
-		<p>
-			<a href="http://www.pytennessee.org/schedule/presentation/42/">
-			  To the Moon and Back: Taking the Leap Towards Solving Big Problems
-			</a>
-		</p>
-		<p class="time">2014 PyTennessee</p>
-	</article>
-	<article>
-		<p>
-			<a href="http://www.secondconf.com/2013/">
-			  To the Moon and Back: Taking the Leap Towards Solving Big Problems
-			</a>
-		</p>
-		<p class="time">2013 SecondConf</p>
-	</article>
-	<article>
-		<p>
-			<a href="http://www.oscon.com/oscon2013/public/schedule/detail/28590">
-				Developers &amp; Designers: Collaborating on your Open Source project
-			</a>
-		</p>
-		<p class="time">2013 OSCON</p>
-	</article>
-	<article>
-		<p>
-			<a href="http://lanyrd.com/2013/pycon/scdyym/">
-				Developers &amp; Designers: Collaborating on your Python project
-			</a>
-		</p>
-		<p class="time">2013 PyCon</p>
-	</article>
-	<article>
-		<p>
-			<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
-				Working with Designers
-			</a>
-		</p>
-		<p class="time">2012 PyCarolinas </p>
-	</article>
-	<article>
-		<p>
-			<a href="http://lanyrd.com/2012/djangocon-us/sxbyd/">
-				Is Django for Designers?
-			</a>
-		</p>
-		<p class="time">2012 DjangoCon</p>
-	</article>
+	<div class="talks">
+		<h2>talks</h2>
+		<h3>2014</h3>
+		<article>
+			<p>
+				<a href="http://lanyrd.com/2014/blendconf14/">
+					BlendConf
+				</a>
+			</p>
+			<p class="time">SEPTEMBER</p>
+		</article>
+		<article>
+			<p>
+				<a href="http://www.pytennessee.org/schedule/presentation/42/">
+				  PyTennessee
+				</a>
+			</p>
+			<p class="time">FEBRUARY</p>
+		</article>
+		<h3>2013</h3>
+		<article>
+			<p>
+				<a href="http://www.secondconf.com/2013/">
+				  SecondConf
+				</a>
+			</p>
+			<p class="time">SEPTEMBER</p>
+		</article>
+		<article>
+			<p>
+				<a href="http://www.oscon.com/oscon2013/public/schedule/detail/28590">
+					OSCON
+				</a>
+			</p>
+			<p class="time">JULY</p>
+		</article>
+		<article>
+			<p>
+				<a href="http://lanyrd.com/2013/pycon/scdyym/">
+					PyCon
+				</a>
+			</p>
+			<p class="time">MARCH</p>
+		</article>
+		<h3>2012</h3>
+		<article>
+			<p>
+				<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
+					PyCarolinas
+				</a>
+			</p>
+			<p class="time">OCTOBER</p>
+		</article>
+		<article>
+			<p>
+				<a href="http://lanyrd.com/2012/djangocon-us/sxbyd/">
+					DjangoCon
+				</a>
+			</p>
+			<p class="time">SEPTEMBER</p>
+		</article>
+	</div>
 </div>
