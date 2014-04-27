@@ -258,9 +258,12 @@ body#homepage {
 			}
 		}
 	}
+	#content { 
+		.container; 
+		.clearfix;
+	}
 	.posts, .talks {
-		.container;
-		padding-bottom: 15px;
+		float: left;
 		h3 { padding: 15px 0 10px 0; }
 		article {
 			padding-bottom: 20px;
@@ -272,6 +275,8 @@ body#homepage {
 			}
 		}
 	}
+	.posts { width: 60%; }
+	.talks { width: 40%; }
 }
 
 /* Posts
