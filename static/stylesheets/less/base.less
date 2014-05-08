@@ -51,7 +51,7 @@
 // Fonts
 // ====================
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,italic,600italic,700italic,400,600,700,800);
 
 /* Generic
 ==================== */
@@ -223,6 +223,7 @@ body#homepage {
 			font-size: 24px;
 			padding: 8px 0;
 			line-height: 30px;
+			font-weight: 300;
 			@media (max-width: 979px) {
 				font-size: 20px;
 			}
@@ -301,13 +302,18 @@ body#post-detail {
 	}
 	.post {
 		.container;
+		width: 100%;
 		img {
 			width: 100%;
-			margin: auto;
-			padding-top: 25px;
+			&.centered {
+				width: auto;
+				display: block;
+				margin: 0 auto;
+			}
 		}
 		p {
 			margin-bottom: 1em;
+			width: 100%;
 		}
 		h4 {
 			padding: 0.5em 0;
