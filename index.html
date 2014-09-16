@@ -51,9 +51,15 @@ id: homepage
 			{% endunless %}
 		  <article>
 			  <p>
-			  	<a href="{{ post.url }}">
-			  		{{ post.title }}
-			  	</a>
+			  	{% if post.external_url %}
+			  		<a href="{{ post.external_url }}">
+				  		{{ post.title }}
+				  	</a>
+			  	{% else %}
+				  	<a href="{{ post.url }}">
+				  		{{ post.title }}
+				  	</a>
+			  	{% endif %}
 			  	<time>{{ post.date|date: '%d %B' }}</time>
 			  </p>
 			</article>
