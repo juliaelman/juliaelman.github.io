@@ -3,145 +3,23 @@ layout: base
 title: julia elman
 id: homepage
 ---
+
 <header>
-	<span class="intro">THIS IS...</span>
 	<h1>{{ page.title }}</h1>
 	<p>Designer/Developer. Chapter Leader at <a href="http://www.meetup.com/Girl-Develop-It-RDU/">Girl Develop It RDU</a> and  <a href="http://www.meetup.com/pyladies-rdu/">PyLadies RDU</a>. <a href="https://www.djangoproject.com/foundation/developer-members/">DSF Developer Member</a>. Author of "<a href="http://bit.ly/lightweightdjango">Lightweight Django</a>", published by O'Reilly Media.</p>
-	<ul class="social">
-		<li>
-			<a href="https://twitter.com/juliaelman/">
-				<img src="/static/images/twitter.png" alt="Follow me on Twitter">
-			</a>
-		</li>
-        <li>
-        	<a href="https://google.com/+juliaelman">
-        		<img src="/static/images/google.png" alt="Follow me on Google Plus">
-        	</a>
-        </li>
-        <li>
-        	<a href="https://github.com/juliaelman">
-        		<img src="/static/images/github.png" alt="Follow me on Github">
-        	</a>
-        </li>
-        <li>
-        	<a href="http://dribbble.com/juliaelman/">
-        		<img src="/static/images/dribbble.png" alt="Follow me on Dribbble">
-        	</a>
-        </li>
-        <li>
-        	<a href="http://www.linkedin.com/in/juliaelman">
-        		<img src="/static/images/linkedin.png" alt="Connect with me on LinkedIN">
-        	</a>
-        </li>
-    </ul>
 </header>
 
 <div id="content">
-	<div class="posts">
-		<h2>posts</h2>
-		{% for post in site.posts %}
-			{% unless post.next %}
-			  <h3>{{ post.date|date: '%Y' }}</h3>
-			{% else %}
-			  {% capture year %}{{ post.date|date: '%Y' }}{% endcapture %}
-			  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-			  {% if year != nyear %}
-			   	<h3>{{ post.date|date: '%Y' }}</h3>
-			  {% endif %}
-			{% endunless %}
-		  <article>
-			  <p>
-			  	{% if post.external_url %}
-			  		<a href="{{ post.external_url }}">
-				  		{{ post.title }}
-				  	</a>
-			  	{% else %}
-				  	<a href="{{ post.url }}">
-				  		{{ post.title }}
-				  	</a>
-			  	{% endif %}
-			  	<time>{{ post.date|date: '%d %B' }}</time>
-			  </p>
-			</article>
-		{% endfor %}
-	</div>
+	<section class="posts">
+		<a href="/writings/">
+			<h2>writings</h2>
+		</a>
+	</section>
+	
+	<section class="talks">
+		<a href="/talks/">
+			<h2>talks</h2>
+		</a>
+	</section>
 
-	<div class="talks">
-		<h2>talks</h2>
-		<h3>2014</h3>
-		<article>
-			<p>
-				<a href="http://frontporch.io/">
-					Frontporch.io
-				</a>
-			</p>
-			<p class="time">OCTOBER</p>
-		</article>
-		<article>
-			<p>
-				<a href="http://www.blendconf.com/">
-					BlendConf
-				</a>
-			</p>
-			<p class="time">SEPTEMBER</p>
-		</article>
-		<article>
-			<p>
-				<a href="http://midwest.io/">
-					Midwest.io
-				</a>
-			</p>
-			<p class="time">JULY</p>
-		</article>
-		<article>
-			<p>
-				<a href="http://www.pytennessee.org/schedule/presentation/42/">
-				  PyTennessee
-				</a>
-			</p>
-			<p class="time">FEBRUARY</p>
-		</article>
-		<h3>2013</h3>
-		<article>
-			<p>
-				<a href="http://www.secondconf.com/2013/">
-				  SecondConf
-				</a>
-			</p>
-			<p class="time">SEPTEMBER</p>
-		</article>
-		<article>
-			<p>
-				<a href="http://www.oscon.com/oscon2013/public/schedule/detail/28590">
-					OSCON
-				</a>
-			</p>
-			<p class="time">JULY</p>
-		</article>
-		<article>
-			<p>
-				<a href="http://lanyrd.com/2013/pycon/scdyym/">
-					PyCon
-				</a>
-			</p>
-			<p class="time">MARCH</p>
-		</article>
-		<h3>2012</h3>
-		<article>
-			<p>
-				<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
-					PyCarolinas
-				</a>
-			</p>
-			<p class="time">OCTOBER</p>
-		</article>
-		<article>
-			<p>
-				<a href="http://lanyrd.com/2012/djangocon-us/sxbyd/">
-					DjangoCon
-				</a>
-			</p>
-			<p class="time">SEPTEMBER</p>
-		</article>
-	</div>
 </div>

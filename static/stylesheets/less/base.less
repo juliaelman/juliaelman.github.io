@@ -1,19 +1,23 @@
 // Table of Contents
-
+// =================
 // Imports
 // Variables
 // Mixins
 // Fonts
 // Generic
 // Homepage
-// Posts
+// Writing/Talk List
+// Writing Detail
 // 404
+
 
 // Imports
 // ====================
 @import "reset.css";
 @import "fonts.css";
 @import "pygments.css";
+@import "../font-awesome/css/font-awesome.min.css";
+
 
 // Variables
 // ====================
@@ -42,27 +46,26 @@
   &:after { content: ''; display: table; clear: both; }
 }
 
+
 // Twitter Bootstrap opacity mixin
 .opacity(@opacity) {
   opacity: @opacity / 100;
   filter: ~"alpha(opacity=@{opacity})";
 }
 
+
 // Fonts
 // ====================
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,italic,600italic,700italic,400,600,700,800);
 
-/* Generic
-==================== */
+
+// Generic
+// ====================
 body {
 	font-family: "Open Sans", Helvetica, sans-serif;
 	color: @gray10;
 	font-size: 18px;
-	@media (max-width: 979px) {
-		padding-right: 25px;
-		padding-left: 25px;
-	}
 }
 
 h1, h2 {
@@ -89,7 +92,6 @@ h1 	{
 
 h2 	{
 	font-size: 80px;
-	margin-bottom: 10px;
 	@media (max-width: 979px) {
 		font-size: 60px;
 	}
@@ -97,8 +99,9 @@ h2 	{
 		font-size: 40px
 	}
 }
+
 h3 	{
-	font-size: 32px;
+	font-size: 36px;
 	font-weight: 700;
 	@media (max-width: 600px) {
 		font-size: 24px
@@ -106,7 +109,7 @@ h3 	{
 }
 
 h4 	{
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 700;
 	margin-top: 40px;
 	@media (max-width: 600px) {
@@ -148,17 +151,17 @@ ul {
 	li {
 		margin-bottom: 10px;
 		font-weight: 300;
+		line-height: 2;
 		@media (max-width: 600px) {
 			font-size: 15px;
-			line-height: 20px;
 		}
 	}
 }
 
-
 code {
    font: 13px Monaco;
 }
+
 pre {
    background: @gray70;
    padding: 20px;
@@ -186,8 +189,12 @@ blockquote {
 
 .container {
 	display: block;
-	max-width: 800px;
+	max-width: 925px;
 	margin: auto;
+	@media (max-width: 979px) {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
 }
 
 header {
@@ -197,18 +204,36 @@ header {
 
 footer {
 	.container;
-	padding: 35px 0 10px 0;
-	font-size: 13px;
+	padding: 25px 0;
+	font-size: 14px;
 	span { color: lighten(@red, 40%); }
-	@media (max-width: 600px) {
-		font-size: 12px;
+	a { text-decoration: none; }
+	.copyright { 
+		float: left;
+		@media (max-width: 600px) { padding-bottom: 5px; }
+	}
+	.social {
+		float: right;
+		font-size: 18px;
+		a { 
+			margin: 0 0 0 15px;
+			@media (max-width: 480px) {
+				margin: 0 15px 0 0;
+			}
+		}
+	}
+	.copyright, .social {
+		@media (max-width: 480px) {
+			float: none;
+		}
 	}
 }
 
 hr { border: 1px solid @gray70;}
 
-/* Homepage
-==================== */
+
+// Homepage
+// ====================
 body#homepage {
 	background-color: @emerald;
 	color: @white;
@@ -221,9 +246,7 @@ body#homepage {
 	header {
 		p {
 			font-size: 24px;
-			padding: 8px 0;
-			line-height: 30px;
-			font-weight: 300;
+			line-height: 1.5;
 			@media (max-width: 979px) {
 				font-size: 20px;
 			}
@@ -232,56 +255,46 @@ body#homepage {
 				line-height: 18px;
 			}
 		}
-		.intro {
-			font-family: "Open Sans Condensed", Futura, sans-serif;
-			font-size: 40px;
-			@media (max-width: 979px) {
-				font-size: 30px;
-			}
-			@media (max-width: 480px) {
-				font-size: 20px;
-				margin-bottom: 8px;
-			}
-		}
 	}
-	ul.social {
-		.clearfix;
-		padding: 10px 0 25px;
-		li {
-			float: left;
-			margin: auto;
-			img {
-				width: 75px;
-				margin-right: 10px;
-				@media (max-width: 480px) {
-					width: 50px;
-				}
+	#content {
+		margin-top: 20px;
+		section {
+			padding: 20px 0;
+			border-top: 1px solid lighten(@emerald, 10%);
+			&:hover { background-color: lighten(@emerald, 10%); }
+			a {
+				text-decoration: none;
+				&:hover { color: @white; }
+			}
+			h2 { .container; }
+			&:last-child {
+				border-bottom: 1px solid lighten(@emerald, 10%);	
 			}
 		}
+		
 	}
-	#content { 
-		.container; 
-		.clearfix;
-	}
-	.posts, .talks {
-		float: left;
-		h3 { padding: 15px 0 10px 0; }
-		article {
-			padding-bottom: 20px;
-			time, .time {
-				display: block;
-				text-transform: uppercase;
-				.opacity(50);
-				font-size: 14px;
-			}
-		}
-	}
-	.posts { width: 60%; }
-	.talks { width: 40%; }
 }
 
-/* Posts
-==================== */
+
+// Writing/Talk List
+//====================
+
+#writings, #talks {
+	header { margin-bottom: 20px;}
+	h3 { padding: 15px 0 10px 0; }
+	article {
+		padding-bottom: 10px;
+		time, .time {
+			display: block;
+			text-transform: uppercase;
+			.opacity(50);
+			font-size: 14px;
+		}
+	}
+}
+
+// Writing Detail
+//====================
 body#post-detail {
 	h2 {
 		margin-bottom: 30px;
@@ -302,7 +315,6 @@ body#post-detail {
 	}
 	.post {
 		.container;
-		width: 100%;
 		img {
 			width: 100%;
 			&.centered {
@@ -323,30 +335,14 @@ body#post-detail {
 			margin-bottom: 1em;
 			li {
 				margin: 0 25px;
-				line-height: 30px;
-				@media (max-width: 600px) {
-					line-height: 20px;
-				}
 			}
 		}
 	}
 }
 
-/* Thanks
-==================== */
-body#thanks {
-	.gratitude {
-		.container;
-		p { margin: 1em 0; }
-		ul {
-			margin-top: 25px;
-			li { margin-bottom: 10px; }
-		}
-	}
-}
 
-/* 404
-==================== */
+// 404
+// ====================
 body#ruhroh {
 	header {
 		text-align: center;
