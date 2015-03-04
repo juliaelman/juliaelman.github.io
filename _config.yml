@@ -1,3 +1,3 @@
 markdown: rdiscount
-highlighter: true
+highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
