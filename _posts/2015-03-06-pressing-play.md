@@ -4,7 +4,7 @@ title: pressing play
 comments: true
 ---
 
-![Running Towards Tomorrow](/static/images/running-towards-sun.jpg)
+![Running Towards Tomorrow](/assets/images/running-towards-sun.jpg)
 
 In my writing titled "[pressing pause](/blog/2014/08/26/pressing-pause/)", I talked about taking some time off for myself. It's been good to be able to take time for myself, my family and take into consideration what I want to do in my life.
 

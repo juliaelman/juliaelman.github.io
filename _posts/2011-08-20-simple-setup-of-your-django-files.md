@@ -9,22 +9,26 @@ I like organization. Keeping things clean, simple and easy to find make for a se
 
 I am constantly working on improving the way I set-up my projects file structure. Here is how I try to keep things clean:
 
-{% highlight html %}
+{% raw %}
+<pre>
+  <code class="language-markup">
 myproject/
-    apps/
-        django-showcase/
-    dev/
-        __init__.py
-        admin.py
-        manage.py
-        settings.py
-    static/
-       images/
-       stylesheets/
-       scripts/
-    templates/
-    urls.py
-{% endhighlight %}
+  apps/
+    django-showcase/
+  dev/
+    __init__.py
+    admin.py
+    manage.py
+    settings.py
+  assets/
+   images/
+   stylesheets/
+   scripts/
+  templates/
+  urls.py
+  </code>
+</pre>
+{% endraw  %}
 
 First up, is the top level folder name of your Django project. I'm calling this one `myproject`.
 
@@ -32,7 +36,7 @@ Next up is your apps folder. This is where you will keep your various Django app
 
 Now moving onto the most important part of my organization is the dev folder. This is where all of my development files are located, hence the name dev. Inside of here you'll see the magically important `__init__.py` and other files that help make the other magic parts of Django run. I do this so that I don't have any floating files hanging out in my project. To make this work correctly, you'll need to make sure to set your `DJANGO_SETTINGS_MODULE` to this folder.
 
-`static` is the folder where all of my static media is stored. So all of my front-end stylesheets, images and scripts go here. You'll need to set the path to this folder in `settings.py` file under `STATIC_ROOT`.
+`assets` is the folder where all of my assets media is stored. So all of my front-end stylesheets, images and scripts go here. You'll need to set the path to this folder in `settings.py` file under `assets_ROOT`.
 
 The `templates` folder is where all of the custom templates for your site will live. You'll also need to define where this is in your `settings.py` under your `TEMPLATES_DIRS`.
 

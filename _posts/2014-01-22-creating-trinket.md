@@ -40,13 +40,13 @@ Our first step was to take a look at our competitors and rank their branding wit
 
 We categorized each competitor name and talked about why each name was in that category. This part of the process helped us get our minds in sync with what we felt were successful names, and what type of name we were aiming for.
 
-![trinket competitive analysis chart](/static/images/trinket-competition.gif)
+![trinket competitive analysis chart](/assets/images/trinket-competition.gif)
 
 #### brainstorming
 
 After determining our names category target, we started brainstorming possible ideas. For two weeks all I did was think, talk and breathe about what our new name would be. The team and I would stay in the office late into the evening, white-boarding concepts for each new idea. This was one of the most invigorating, intense and frustrating parts of the process, as trying to get several possible contenders in the ring became a daunting task. Regardless, the team banded together and each member contributed ideas to the cause.
 
-![Photo of naming sketch papers](/static/images/trinket-sketches.jpg)
+![Photo of naming sketch papers](/assets/images/trinket-sketches.jpg)
 
 #### name evaluation + taglines
 
@@ -72,7 +72,7 @@ I presented these creative assets to the team, speaking to the visual strengths 
 
 After much deliberation, thought, evaluation and effort, the team chose:
 
-[![trinket: the key to open teaching](/static/images/trinket-logo.png)](http://bit.ly/1e7OyZM)
+[![trinket: the key to open teaching](/assets/images/trinket-logo.png)](http://bit.ly/1e7OyZM)
 
 When we think about trinkets, we think about something that is precious and small. Something that we can carry around with us and collect over time. This mindset perfectly sets our brand in a position for our users to create something meaningful and precious to them. Creating courses, and sessions within them, takes time and collection of materials. The goal for [trinket](http://get.trinket.io/) is to create this space where educators can bring those courses and materials together in the open.
 

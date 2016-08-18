@@ -11,7 +11,7 @@ comments: true
 	</p>
 	<p>I want to keep moving and keep learning. And not know everything.</p>
 	<strong>
-		—Michael Stipe
+		— Michael Stipe
 	</strong>
 </blockquote>
 {% endraw %}
@@ -28,7 +28,7 @@ Over the past few years I have grown to realize how important new standards in e
 <blockquote cite="http://paulgraham.com/ambitious.html">
 	<p>I don't think universities will disappear. They won't be replaced wholesale. They'll just lose the de facto monopoly on certain types of learning that they once had. There will be many different ways to learn different things, and some may look quite different from universities.</p>
 	<strong>
-		—Paul Graham
+		— Paul Graham
 	</strong>
 </blockquote>
 {% endraw %}

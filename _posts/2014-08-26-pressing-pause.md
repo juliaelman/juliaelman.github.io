@@ -4,7 +4,7 @@ title: pressing pause
 comments: false
 ---
 
-![Mary Cassatt, Breakfast in Bed](/static/images/breakfast-in-bed-1897.jpg)
+![Mary Cassatt, Breakfast in Bed](/assets/images/breakfast-in-bed-1897.jpg)
 Mary Cassatt, _Breakfast In Bed_, 1897, oil on canvas
 
 This week, my daughter starts her first week of Kindergarten. I cannot believe she is already heading off to school or how quickly the time has passed. It seems like yesterday I was nuzzling this little baby under my chin, doing the hokey pokey at story time and figuring out the secrets of potty training. 

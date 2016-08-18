@@ -4,7 +4,7 @@ title: what i've learned from teaching
 comments: true
 ---
 
-![Julia Elman, Girl Develop It RDU](/static/images/julia-elman-gdirdu-teaching.jpg)
+![Julia Elman, Girl Develop It RDU](/assets/images/julia-elman-gdirdu-teaching.jpg)
 
 In my journey into teaching, I learned many things about the craft and its role in education, primarily in the programming realm. The challenges I encountered as a teacher are beyond many of the challenges I faced as even as a programmer. In the past year or so, I have been thinking of new ways to teach and bring new awareness to students. Here are a few things I have learned and would like to share.
 

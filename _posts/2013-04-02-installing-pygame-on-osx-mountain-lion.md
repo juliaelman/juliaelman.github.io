@@ -22,7 +22,7 @@ Here is what you should have installed as a precursor to installing pygame. You 
 
 Next, you'll need all the little bits &amp; pieces that make pygame go. Here is a quick explanation of all of those items (thank you Wikipedia!).
 
-####simple directmedia layer (sdl)
+#### Simple directmedia layer (sdl)
 
 [http://www.libsdl.org/](http://www.libsdl.org/)
 
@@ -32,34 +32,53 @@ Simple DirectMedia Layer is a cross-platform, free and open source multimedia li
 - sdl_mixer: complex audio functions, mainly for sound mixing
 - sdl_ttf: [TrueType font](http://en.wikipedia.org/wiki/TrueType) rendering support
 
-####sql mpeg library (smpeg)
+#### SQL mpeg library (smpeg)
 
 [http://icculus.org/smpeg/](http://icculus.org/smpeg/) 
 
 smpeg is a mpeg decoding library. It interfaces with the Simple DirectMedia Layer to provide cross-platform MP3 playback for games.
 
-####portmidi
+#### Portmidi
 
 [http://portmedia.sourceforge.net/portmidi/](http://portmedia.sourceforge.net/portmidi/)
 
 PortMidi is a computer library for real time input and output of MIDI data to aid in any music you would like to create for your game. 
 
-####installation
+#### Installation
 
 First, you will need to install all of the SDL goodness:
 
-	brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
+{% raw %}
+<pre>
+  <code class="language-markup">
+  $ brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
+  </code>
+</pre>
+{% endraw %}
 
 You'll notice that `smpeg` is missing from this list. This was a little bit more complicated and I had to do some tapping to get this to install correctly:
 
-	brew tap homebrew/headonly
-	brew install smpeg --HEAD
+{% raw %}
+<pre>
+  <code class="language-markup">
+	$ brew tap homebrew/headonly
+	$ brew install smpeg --HEAD
+  </code>
+</pre>
+{% endraw %}
+
 
 As explained in [this Github comment](https://github.com/samueljohn/homebrew-python/issues/22#issuecomment-14958411), these options pull the latest (and possible unstable) version of smpeg. This is not ideal, but this is what ended up working for me.
 
 And now, onto pygame! I really don't like installing pre-packaged distributions and much rather work with active code. So, I installed via hg in order for it to work properly, and run `sudo` because of my folder permissions setup (I swear, I'll fix that one day!):
 
-	sudo pip install hg+http://bitbucket.org/pygame/pygame
+{% raw %}
+<pre>
+  <code class="language-markup">
+	$ sudo pip install hg+http://bitbucket.org/pygame/pygame
+  </code>
+</pre>
+{% endraw %}
 
 Now, open up a python shell prompt and type `import pygame`. Did it work? If so, congratulations! pygame is now installed on your machine.
 

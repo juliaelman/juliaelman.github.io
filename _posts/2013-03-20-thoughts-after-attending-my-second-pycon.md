@@ -12,12 +12,12 @@ I also had the incredible opportunity to be a speaker this year. My colleague [M
 
 And then, there was the gift of a Raspberry Pi to each PyCon attendee. I wish I had, had a better camera with me so that I could have gotten photos of the faces in crowd when [Jesse Noller](http://twitter.com/jessenoller/), PyCon Chair, announced that everyone in the audience would be getting a Raspberry Pi. Those faces and the kids in the audience jumping up and down in their seats, was a truly amazing site to see! 
 
-![Raspberry Pi inside of Pibow case](/static/images/raspberrypi.jpg)
+![Raspberry Pi inside of Pibow case](/assets/images/raspberrypi.jpg)
 
 *My Raspberry Pi, decked out in it's new Pibow home*
 
 Overall, I would have to say that my experience this year was all about people. The people whom I rarely get to see in real life and more frequently talk to via a keyboard. It's these in person moments that have the most impact on us as a community. Getting to know all of the amazingly smart and kind people I am surrounded by is truly inspiring.
 
-Looking back on my post from [last year](/blog/2012/mar/13/my-first-pycon/), I never would have believed you if you told me what the future held at PyCon 2013. Thank you to everyone who made this year a succes and making me very proud to be a member of the Python community.
+Looking back on my post from [last year](/blog/2012/mar/13/my-first-pycon/), I never would have believed you if you told me what the future held at PyCon 2013. Thank you to everyone who made this year a success and making me very proud to be a member of the Python community.
 
 Oh yeah... and let's keep on making more cool shit.

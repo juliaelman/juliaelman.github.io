@@ -4,7 +4,7 @@ title: six months and counting
 comments: true
 ---
 
-![Six Months and Counting](/static/images/six-months-and-counting.jpg)
+![Six Months and Counting](/assets/images/six-months-and-counting.jpg)
 
 While I am not a prolific writer on this site of mine, it's been quite a while since I've written something. In fact, it's been almost exactly six months since my [last post](/blog/2015/03/12/joining-18F/) and needless to say, I've been busy. So, I thought I'd write up what I've been up to in that time.
 

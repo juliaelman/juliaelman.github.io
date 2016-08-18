@@ -10,7 +10,7 @@ Today I am thrilled to announce that I'll be joining [The Iron Yard](http://thei
 
 {% raw %}
 <a href="http://theironyard.com/academy/">
-	<img class="centered" src="/static/images/the-iron-yard.png" alt="The Iron Yard Academy">
+	<img class="centered" src="/assets/images/the-iron-yard.png" alt="The Iron Yard Academy">
 </a>
 {% endraw %}
 
