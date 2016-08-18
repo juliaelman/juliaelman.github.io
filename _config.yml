@@ -1,1 +1,6 @@
 permalink: /blog/:year/:month/:day/:title
+
+baseurl: ""
+
+# Build settings
+markdown: kramdown
