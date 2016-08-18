@@ -1,59 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Julia Elman: Designer/Developer. HTML, CSS, Javascript, Python, Django.">
-        <meta name="keywords" content="julia elman, web design, design, front-end developer, django, python, css, html, javascript">
-        <meta name="author" content="Julia Elman">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta property="og:image" content="/static/images/panda-circle.png">
-        <title>{{ page.title }}</title>
-
-        <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="apple-touch-icon" href="/static/images/touch_icon.png">
-
-        <link rel="alternate" type="application/atom+xml" title="RSS feed for juliaelman.com" href="/atom.xml">
-
-        <link rel="stylesheet" href="/static/stylesheets/base.css">
-
-        <script type="text/javascript">
-
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-1899562-1']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
-    </head>
-    <body id="{{ page.body_id }}">
-        {{ content }}
-        <footer>
-            <div class="copyright">
-                &copy;{{ site.time | date: '%Y'}} Julia Elman, Opinions are my own.
-            </div>
-            <div class="social">
-                <a href="https://twitter.com/juliaelman/" title="Follow me on Twitter">
-                    <i class="fa fa-twitter"></i>
-                </a>
-
-                <a href="https://github.com/juliaelman" title="Follow me on Github">
-                    <i class="fa fa-github"></i>
-                </a>
-
-                <a href="http://dribbble.com/juliaelman/" title="Follow me on Dribbble">
-                    <i class="fa fa-dribbble"></i>
-                </a>
-
-                <a href="http://www.linkedin.com/in/juliaelman" title="Connect with me on LinkedIN">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-            </div>
-        </footer>
-    </body>
+  {% include head.html %}
+  <body id="{{ page.body_id }}">
+    <div id="content">
+    {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
 </html>
