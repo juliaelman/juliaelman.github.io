@@ -120,10 +120,6 @@ a {
 	color: $emerald;
 }
 
-img {
-  width: 100%;
-}
-
 article {
   font-weight: 200;
   padding-top: 15px;
@@ -165,7 +161,8 @@ footer {
 
 footer {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  
   span { 
     color: lighten($red, 40%); 
   }
@@ -174,20 +171,22 @@ footer {
     text-decoration: none; 
   }
   
-  .copyright { 
+  .copyright {
+    
     float: left;
-    font-size: 11px;
+    
     @media (max-width: $xsmall) {
       padding: 10px 0;
     }
   }
   
   .social {
+    
     float: right;
-    font-size: 18px;
+    font-size: 24px;
     
     a { 
-      margin-right: 15px;
+      margin-left: 15px;
       @media (max-width: $xsmall) {
         margin: 0;
       }
@@ -203,15 +202,50 @@ footer {
   }
 }
 
+nav {
+  
+  float: right;
+  position: relative;
+  top: -65px;
+  font-size: 18px;
+  font-weight: 700;
+  
+  li {
+    
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 0;
+    
+    @media (max-width: $medium) {
+      
+      margin-left: 0;
+      margin-right: 15px;
+    }
+
+  }
+  
+  a {
+    font-weight: 300;
+  }
+  
+  @media (max-width: $medium) {
+    
+    float: none;
+    position: static;
+  }  
+}
+
 #content {
+  
   padding-top: 20px;
   padding-bottom: 20px;
-  
 }
 
 // Homepage
 // ====================
 #homepage {
+  
   background-color: $emerald;
   color: #FFFFFF;
   
@@ -227,6 +261,7 @@ footer {
   header {
     > p {
       @include font-size-map($sub-head);
+      font-weight: 200;
       line-height: 1.5;
     }
   }
@@ -273,25 +308,36 @@ footer {
   }
   
   p {
+    
     font-weight: 300;
     line-height: 1.8;
     margin-bottom: 1em;
   }
   
   ul {
+    
     list-style: disc;
     margin-bottom: 1em;
     
     li {
+      
       line-height: 1.8;
-      margin: 0 25px;
     }
+  }
+  
+  img {
+    width: 100%;
   }
 }
 
 // Page list
 //====================
 #page-list {
+  
+  header,
+  h2 {
+    margin-bottom: 20px;
+  }
 
   h3,
   h4 {
