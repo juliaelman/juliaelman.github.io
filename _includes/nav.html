@@ -1,0 +1,34 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+<nav role="navigation">
+  <ul>
+    <li>
+      {% if current[1] == 'about' %}
+        about
+      {% else %}
+        <a href="/about">about</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if current[1] == 'work' %}
+        work
+      {% else %}
+        <a href="/work">work</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if current[1] == 'writings' %}
+        writings
+      {% else %}
+        <a href="/writings">writings</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if current[1] == 'talks' %}
+        talks
+      {% else %}
+        <a href="/talks">talks</a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
