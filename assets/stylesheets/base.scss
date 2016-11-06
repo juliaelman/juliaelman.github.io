@@ -151,12 +151,19 @@ blockquote {
     padding-left: 25px;
     padding-right: 25px;
 	}
-	
+}
+
+header {
+  margin-bottom: 40px;
 }
 
 header,
 footer {
 	@extend .container;
+}
+
+header {
+  
 }
 
 footer {
@@ -297,7 +304,6 @@ nav {
 //====================
 #page-detail {
   
-  header,
   h2,
   h4 {
     margin-bottom: 20px;
