@@ -4,30 +4,30 @@
   <ul>
     <li>
       {% if current[1] == 'about' %}
-        about
+        About
       {% else %}
-        <a href="/about">about</a>
+        <a href="/about">About</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if current[1] == 'writing' %}
+        Writing
+      {% else %}
+        <a href="/writings">Writings</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if current[1] == 'speaking' %}
+        Speaking
+      {% else %}
+        <a href="/Speaking">Speaking</a>
       {% endif %}
     </li>
     <li>
       {% if current[1] == 'work' %}
-        work
+        Work
       {% else %}
-        <a href="/work">work</a>
-      {% endif %}
-    </li>
-    <li>
-      {% if current[1] == 'writings' %}
-        writings
-      {% else %}
-        <a href="/writings">writings</a>
-      {% endif %}
-    </li>
-    <li>
-      {% if current[1] == 'talks' %}
-        talks
-      {% else %}
-        <a href="/talks">talks</a>
+        <a href="/work">Work</a>
       {% endif %}
     </li>
   </ul>
