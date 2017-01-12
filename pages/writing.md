@@ -1,7 +1,7 @@
 ---
 layout: base
-title: writing
-permalink:
+title: Writing
+permalink: writing
 body_id: page-list
 ---
 
