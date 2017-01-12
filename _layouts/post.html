@@ -1,39 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
-  <body id="page-detail">
-  {% include analytics.html %}
-    <div id="content">
-      <header>
-       <h2 class="logo"><a href="/">julia elman</a></h2>
-        {% include nav.html %}
-        <time datetime="{{ page.date | date_to_xmlschema }} pubdate">
-          {{ page.date|date:'%d %B, %Y' }}
-        </time>
-        <h3>{{ page.title }}</h3>
-      </header>
-      <div class="container">
-        {{ content }} 
-          
-        {% if page.comments %}
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-              var disqus_shortname = 'juliaelman'; // Required - Replace example with your forum shortname
-              var disqus_url = "http://juliaelman.com{{ page.url }}";
-              var disqus_title = "{{ page.title | escape }}";
+---
+layout: base
+---
 
-              /* * * DON'T EDIT BELOW THIS LINE * * */
-              (function() {
-                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        {% endif %}
-      </div>
-      {% include footer.html %}
-    </div>
-  </body>
-</html>
+<time datetime="{{ page.date | date_to_xmlschema }} pubdate">
+  {{ page.date|date:'%d %B, %Y' }}
+</time>
+<h3>{{ page.title }}</h3>
+
+{{ content }}
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = "http://juliaelman.com{{ page.url }}";
+    this.page.identifier = "{{ page.title | escape }}";
+  };
+  (function() {  // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+      
+    s.src = '//juliaelman.disqus.com/embed.js';
+      
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
