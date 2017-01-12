@@ -48,37 +48,25 @@ PortMidi is a computer library for real time input and output of MIDI data to ai
 
 First, you will need to install all of the SDL goodness:
 
-{% raw %}
-<pre>
-  <code class="language-markup">
-  $ brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
-  </code>
-</pre>
-{% endraw %}
+{% highlight bash %}
+brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
+{% endhighlight %}
 
 You'll notice that `smpeg` is missing from this list. This was a little bit more complicated and I had to do some tapping to get this to install correctly:
 
-{% raw %}
-<pre>
-  <code class="language-markup">
-	$ brew tap homebrew/headonly
-	$ brew install smpeg --HEAD
-  </code>
-</pre>
-{% endraw %}
+{% highlight bash %}
+brew tap homebrew/headonly
+brew install smpeg --HEAD
+{% endhighlight %}
 
 
 As explained in [this Github comment](https://github.com/samueljohn/homebrew-python/issues/22#issuecomment-14958411), these options pull the latest (and possible unstable) version of smpeg. This is not ideal, but this is what ended up working for me.
 
 And now, onto pygame! I really don't like installing pre-packaged distributions and much rather work with active code. So, I installed via hg in order for it to work properly, and run `sudo` because of my folder permissions setup (I swear, I'll fix that one day!):
 
-{% raw %}
-<pre>
-  <code class="language-markup">
-	$ sudo pip install hg+http://bitbucket.org/pygame/pygame
-  </code>
-</pre>
-{% endraw %}
+{% highlight bash %}
+sudo pip install hg+http://bitbucket.org/pygame/pygame
+{% endhighlight %}
 
 Now, open up a python shell prompt and type `import pygame`. Did it work? If so, congratulations! pygame is now installed on your machine.
 

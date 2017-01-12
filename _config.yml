@@ -4,6 +4,7 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 # Site specific context
 title: Julia Elman

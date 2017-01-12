@@ -9,9 +9,7 @@ I like organization. Keeping things clean, simple and easy to find make for a se
 
 I am constantly working on improving the way I set-up my projects file structure. Here is how I try to keep things clean:
 
-{% raw %}
-<pre>
-  <code class="language-markup">
+{% highlight markup %}
 myproject/
   apps/
     django-showcase/
@@ -26,9 +24,7 @@ myproject/
    scripts/
   templates/
   urls.py
-  </code>
-</pre>
-{% endraw  %}
+{% endhighlight  %}
 
 First up, is the top level folder name of your Django project. I'm calling this one `myproject`.
 

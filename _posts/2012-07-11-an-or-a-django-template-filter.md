@@ -10,13 +10,11 @@ I started out by looking for a template tag or filter that would determine wheth
 
 Awesome, right? Yes. This is awesome. But in order to use this you'd have to double up your template context as follows:
 
+{% highlight django %}
 {% raw %}
-<pre>
-  <code class="language-markup">
-	{{ word | tag }} {{ word }}
-  </code>
-</pre>
+{{ word | tag }} {{ word }}
 {% endraw %}
+{% endhighlight %}
 
 Which would result in something like this: 'an owl' or 'a raccoon'.
 
