@@ -1,12 +1,12 @@
 ---
 ---
-@charset "utf-8";
+@charset 'utf-8';
 
 // Imports
 // ====================
-@import "syntax.css";
-@import "reset.css";
-@import "fonts.css";
+@import 'syntax.css';
+@import 'reset.css';
+@import 'fonts.css';
 
 
 // Mixins
@@ -88,7 +88,7 @@ html {
 }
 
 body {
-	font-family: "Open Sans", Helvetica, sans-serif;
+	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 h1 { @include font-size-map($h1-font-size); }
@@ -98,8 +98,8 @@ h4 { @include font-size-map($h4-font-size); }
 
 h1,
 h2 {
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
