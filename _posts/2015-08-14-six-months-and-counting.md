@@ -1,6 +1,6 @@
 ---
 layout: post
-title: six months and counting
+title: Six months and counting
 comments: true
 ---
 

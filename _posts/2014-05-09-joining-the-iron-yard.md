@@ -1,6 +1,6 @@
 ---
 layout: post
-title: joining the iron yard
+title: Joining the iron yard
 comments: true
 ---
 

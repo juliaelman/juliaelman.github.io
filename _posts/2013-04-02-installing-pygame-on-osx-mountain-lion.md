@@ -1,6 +1,6 @@
 ---
 layout: post
-title: installing pygame on osx mountain lion
+title: Installing PyGame on OSX Mountain Lion
 comments: true
 ---
 
@@ -22,7 +22,7 @@ Here is what you should have installed as a precursor to installing pygame. You 
 
 Next, you'll need all the little bits &amp; pieces that make pygame go. Here is a quick explanation of all of those items (thank you Wikipedia!).
 
-#### Simple directmedia layer (sdl)
+### Simple directmedia layer (sdl)
 
 [http://www.libsdl.org/](http://www.libsdl.org/)
 
@@ -32,19 +32,19 @@ Simple DirectMedia Layer is a cross-platform, free and open source multimedia li
 - sdl_mixer: complex audio functions, mainly for sound mixing
 - sdl_ttf: [TrueType font](http://en.wikipedia.org/wiki/TrueType) rendering support
 
-#### SQL mpeg library (smpeg)
+### SQL mpeg library (smpeg)
 
 [http://icculus.org/smpeg/](http://icculus.org/smpeg/) 
 
 smpeg is a mpeg decoding library. It interfaces with the Simple DirectMedia Layer to provide cross-platform MP3 playback for games.
 
-#### Portmidi
+### Portmidi
 
 [http://portmedia.sourceforge.net/portmidi/](http://portmedia.sourceforge.net/portmidi/)
 
 PortMidi is a computer library for real time input and output of MIDI data to aid in any music you would like to create for your game. 
 
-#### Installation
+### Installation
 
 First, you will need to install all of the SDL goodness:
 

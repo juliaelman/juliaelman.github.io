@@ -1,6 +1,6 @@
 ---
 layout: post
-title: review of cosmonaut stylus
+title: Review of the Cosmonaut stylus
 permalink: /blog/2012/mar/20/review-cosmonaut-stylus-pen/
 comments: false
 ---

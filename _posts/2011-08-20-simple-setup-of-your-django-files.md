@@ -1,6 +1,6 @@
 ---
 layout: post
-title: simple set-up of your django project files
+title: A simple set-up of your django project files
 permalink: /blog/2011/aug/20/simple-set-up-of-your-django-project-files/
 comments: true
 ---

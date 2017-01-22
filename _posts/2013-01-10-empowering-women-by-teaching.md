@@ -1,6 +1,6 @@
 ---
 layout: post
-title: empowering women by teaching
+title: Empowering women by teaching
 permalink: /blog/2013/jan/10/empowering-women-by-teaching/
 comments: true
 ---

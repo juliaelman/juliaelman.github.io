@@ -1,6 +1,6 @@
 ---
 layout: post
-title: let's get a little louder
+title: Lets get a little louder
 permalink: /blog/2012/jun/3/lets-get-little-louder/
 comments: true
 ---

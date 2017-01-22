@@ -1,6 +1,6 @@
 ---
 layout: post
-title: pressing play
+title: Pressing play
 comments: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: teen tech camp recap
+title: Teen Tech camp recap
 comments: true
 ---
 

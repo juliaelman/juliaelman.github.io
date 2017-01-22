@@ -1,6 +1,6 @@
 ---
 layout: post
-title: razzytails
+title: Razzytails
 comments: true
 ---
 

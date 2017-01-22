@@ -1,6 +1,6 @@
 ---
 layout: post
-title: reflections on imagine how creativity works by jonah lehrer
+title: Reflections on imagine how creativity works by jonah lehrer
 permalink: /blog/2012/may/7/reflection-imagine-how-creativity-works/
 comments: false
 ---

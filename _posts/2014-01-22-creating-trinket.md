@@ -1,16 +1,16 @@
 ---
 layout: post
-title: creating trinket
+title: Creating trinket
 comments: true
 ---
 
 For the past four weeks, I have been helping to lead a rebranding effort for [Coursefork](http://coursefork.org). It has been an interesting journey for our team and I wanted to share how we came up with our new brand.
 
-#### coursefork wasn't working
+### Coursefork wasn't working
 
 As an edtech startup, it is important for us to have a brand that resonates with educators. The name "Coursefork" was just not working, primarily because of the branding approach. While "forking" is a term that most programmers understand, it is not a concept most of the educators are familiar with. In my mind, we had to change the brand to put us in a better position to connect with educators and create a successful product.
 
-#### brand manifesto
+### Brand manifesto
 
 We started the process by creating a brand manifesto, a brand's clear and public declaration of purpose and intent. This statement set the tone for our new brand and gave the team a centralized idea that highlighted our vision. We were able to use the brand manifesto consistently throughout the process to return to as an anchor. Here is the brand manifesto we came up with:
 
@@ -23,13 +23,13 @@ We started the process by creating a brand manifesto, a brand's clear and public
 </blockquote>
 {% endraw %}
 
-#### getting started
+### Getting started
 
 After establishing the brand manifesto, it was time for us to really start the process of selecting a new name. 
 
 Nick Zafiropoulos, CEO at local startup [Brevado](http://brevado.com), recommended the [Igor Naming Guide](http://www.igorinternational.com/process/naming-guide-product-company-names.php) to help us through our rebranding process. I read through the guide and felt that it fit perfectly with the direction we wanted to take. So, we battened down our hatches and got to work!
 
-#### competitive analysis
+### Competitive analysis
 
 Our first step was to take a look at our competitors and rank their branding with a set of standards. Each name was categorized as either: Functional/Descriptive, Invented, Experiential or Evocative. Here are some brief explanations for each of these categories:
 
@@ -42,13 +42,13 @@ We categorized each competitor name and talked about why each name was in that c
 
 ![trinket competitive analysis chart](/assets/images/trinket-competition.gif)
 
-#### brainstorming
+### Brainstorming
 
 After determining our names category target, we started brainstorming possible ideas. For two weeks all I did was think, talk and breathe about what our new name would be. The team and I would stay in the office late into the evening, white-boarding concepts for each new idea. This was one of the most invigorating, intense and frustrating parts of the process, as trying to get several possible contenders in the ring became a daunting task. Regardless, the team banded together and each member contributed ideas to the cause.
 
 ![Photo of naming sketch papers](/assets/images/trinket-sketches.jpg)
 
-#### name evaluation + taglines
+### Name evaluation + taglines
 
 As we began to whittle away at the list of names, possible contenders started to rise to the top of the pile. We ended this stage with 15 good names, and continued on with the next phase of the Igor Naming Guide process: Name Evaluation and Taglines.
 
@@ -60,7 +60,7 @@ We created a spreadsheet in which each name would be ranked and given a final sc
 
 The team also came up with potential taglines for each of the 15 contenders. This helped in determining the marketing and positioning strategies that we would be capable of using with each brand. Each name had anywhere from 5-20 different taglines for us to choose from.
 
-#### creative assets
+### Creative assets
 
 At this stage of the process, we had already taken a look at the competition, selected our naming aims, brainstormed 15 possible options and tag lines for the company's new branding strategy. But, there was still something missing: creative. What would the logo look like? In what direction would we want to head for the visual presentation for the brand? Colors? Fonts?
 

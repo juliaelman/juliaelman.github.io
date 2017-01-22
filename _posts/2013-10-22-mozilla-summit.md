@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2013 mozilla summit
+title: 2013 Mozilla Summit
 comments: true
 ---
 

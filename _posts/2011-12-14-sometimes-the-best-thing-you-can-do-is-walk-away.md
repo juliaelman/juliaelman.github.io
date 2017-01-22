@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sometimes the best thing you can do is walk away
+title: Sometimes the best thing you can do is walk away
 permalink: /blog/2011/dec/14/sometimes-best-thing-you-can-do-walk-away/
 comments: false
 ---

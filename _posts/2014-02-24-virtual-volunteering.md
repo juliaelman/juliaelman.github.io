@@ -1,6 +1,6 @@
 ---
 layout: post
-title: virtual volunteering
+title: Virtual volunteering
 comments: true
 ---
 
@@ -23,27 +23,27 @@ This statement presents an answer to the question of our ability to solve big pr
 
 I mentioned a few virtual volunteering opportunities where we, as professional technologists, can help contribute our talents. I've started a short list below and also made it completely open source, [forkable on Github](https://github.com/juliaelman/juliaelman.github.com/blob/master/_posts/2014-02-24-virtual-volunteering.md). I encourage you to submit a pull request, or even shoot me a message on [Twitter](http://twitter.com/juliaelman) or email me at [juliaelman@gmail.com](mailto:juliaelman@gmail.com) for events and/or opportunities where professional technologists can give back. It's an exciting time and I am looking forward to hearing about all of the opportunities we have to help contribute and solve big problems.
 
-#### Click (One-day event)
+### Click (One-day event)
 [http://www.nashvillecode.org/](http://www.nashvillecode.org/)
 
 A free event for teachers and programmers. I learned about this while at PyTennessee 2014 and am thrilled to hear about this opportunity to connect professional educators and developers.
 
-#### Code for America (Organization)
+### Code for America (Organization)
 [codeforamerica.org](http://codeforamerica.org)
 
 Code for America brings together local governments and technologists to make better cities for everyone.
   
-#### Code Montage (Organization, Events)
+### Code Montage (Organization, Events)
 [codemontage.com](http://codemontage.com)
 
 Code Montage helps empower coders to improve their impact on the world. On January 18, 2014, they held a "Coder Day of Service" in which 1300 volunteer coding hours helped amplify 50 projects.
 
-#### Make Good (Virtual volunteering)
+### Make Good (Virtual volunteering)
 [jenmyers.github.io/makegood](http://jenmyers.github.io/makegood)
 
 Virtual volunteering opportunities for web designers and developers. 
 
-#### Random Hacks of Kindness (Organization, Events)
+### Random Hacks of Kindness (Organization, Events)
 [rhok.org](http://rhok.org)
 
 Making the world a better place by developing practical, open source technology solutions to respond to some of the most complex challenges facing humanity.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: pressing pause
+title: Pressing pause
 comments: false
 ---
 

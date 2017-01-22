@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2013 teen tech camp press release
+title: 2013 Teen Tech camp press release
 comments: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: because it works
+title: Because it works
 comments: false
 ---
 
@@ -14,7 +14,7 @@ Let's crunch some numbers!
 
 But what contributed to this diverse and welcoming conference? There are many reasons, but I'd like to point out the top three I feel helped the most.
 
-#### Outreach
+### Outreach
 
 I attended a panel with varying community leaders titled ["Scaling community diversity outreach"](https://us.pycon.org/2013/schedule/presentation/104/). At the end of the panel, someone asked the question on what is the best way to try to engage a more diverse community. [Jessica McKellar](http://web.mit.edu/jesstess/) stated that she found the best solution is by reaching out to individuals and bringing them into the community.
 
@@ -22,11 +22,11 @@ I could not agree more with this sentiment. From my personal experience this yea
 
 Also, [PyLadies grants](https://us.pycon.org/2013/assistance/) made it possible for those to attend the conference, who otherwise could not because of financial reasons. One of my colleagues from [Girl Develop It RDU](http://www.meetup.com/Girl-Develop-It-RDU/) received one of these grants to come to her first ever PyCon. Because of this, I got to see her face beaming every time I ran into her at the conference!
 
-#### Activism
+### Activism
 
 In the expo hall, there was an amazing presence of many of the women in tech activist groups. [PyLadies](http://www.pyladies.com/), the [Ada Initiative](http://adainitiative.org/), [Open Hatch](https://openhatch.org/) and [Women Who Code](http://www.meetup.com/Women-Who-Code-SF/) all had booths near each other. It was so cool to watch these spaces become a welcoming hub for all to come together! Each groups activism and support of women in the Python community helps make for a better space for everyone to be in. It was great to see this happening at the conference in real time.
 
-#### Code of conduct
+### Code of conduct
 
 I have personally [done what I can](http://letsgetlouder.com/) to help make it clear that creating a code of conduct at conferences is imperative. The staff at PyCon greatly understands the importance of having a code of conduct and put that practice to action. 
 

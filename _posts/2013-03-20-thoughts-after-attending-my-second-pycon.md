@@ -1,6 +1,6 @@
 ---
 layout: post
-title: thoughts after attending my second pycon
+title: Thoughts after attending my second PyCon
 comments: true
 ---
 

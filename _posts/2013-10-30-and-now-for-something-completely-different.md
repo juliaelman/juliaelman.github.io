@@ -1,6 +1,6 @@
 ---
 layout: post
-title: and now for something completely different
+title: And now for something completely different
 comments: true
 ---
 

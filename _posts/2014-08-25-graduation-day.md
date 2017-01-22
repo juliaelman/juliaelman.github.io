@@ -1,6 +1,6 @@
 ---
 layout: post
-title: graduation day
+title: Graduation day
 comments: true
 ---
 

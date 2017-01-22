@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post post
+title: A post post
 permalink: /blog/2012/jun/24/post-post/
 comments: true
 ---

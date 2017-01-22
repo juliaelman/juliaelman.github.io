@@ -1,6 +1,6 @@
 ---
 layout: post
-title: an or a django template filter
+title: An or a Django template filter
 comments: false
 ---
 

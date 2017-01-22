@@ -1,6 +1,6 @@
 ---
 layout: post
-title: what i've been up to lately
+title: What I've been up to lately
 comments: true
 ---
 
