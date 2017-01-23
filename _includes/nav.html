@@ -1,6 +1,6 @@
 {% assign current = page.url | downcase | split: '/' %}
-
-<nav role="navigation">
+<a class="menu-btn button"></a>
+<nav role="navigation" aria-label="Main Navigation" class="menu">
   <ul>
     <li>
       {% if current[1] == 'about' %}
@@ -30,5 +30,6 @@
         <a href="/work/">Work</a>
       {% endif %}
     </li>
+    <li><a href="mailto:hello@juliaelman.com?subject=Hello, Julia!">Contact</a></li>
   </ul>
 </nav>
