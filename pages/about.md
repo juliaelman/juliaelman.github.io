@@ -1,19 +1,20 @@
 ---
-layout: base
+layout: default
 title: About
 permalink: about
 body_id: page-detail
-current: true
 ---
+<img src="/assets/images/julia-elman.png" alt="Julia Elman" class="profile">
 
-Julia is a Senior UI Developer with a strong background in both the technical and creative aspects of web and mobile applications. With over a decade of experience, she has become a leader in the field and helped develop a few of the tech industry's most influential projects.
+<p>Julia is a Senior UI Developer with a strong background in both the <a href="https://github.com/juliaelman/">technical</a> and <a href="https://dribbble.com/juliaelman/">creative aspects</a> of web and mobile applications. With over a decade of experience, she has become a leader in her field and has helped develop a few of the tech industry's most influential projects.</p>
 
-In 2001, Julia started her career in web design and development. She quickly honed her skill sets and joined the Marketing Studio at Hallmark Cards, Inc. located in Kansas City, Missouri. She primarily worked in Flash (Actionscript) to create delightful experiences for various holiday promotions. In 2007, she received an AIGA Award for interaction design for her work on the Hallmark Product (RED) microsite. She then went on to receive the Hallmark Marketing Excellence award in 2008 for her effective work throughout various parts of the organization.
 
-Having the desire to dive deeper into the technical side of her work, Julia joined the elite team at the Lawrence Journal-World (also known as the birthplace of Django) based in Lawrence, Kansas in 2008. She worked alongside the core developers who created Django, a Python based web framework, and started her journey into open source development. She worked with the team to create web and mobile interfaces for Ellington CMS and Ellington Marketplace. This work also included creating online video trainings and documentation to help support the broad customer base.
+<p>In 2001, Julia started the journey of becoming a web designer/developer. She quickly honed her skill sets and joined the [Marketing Studio at Hallmark Cards, Inc. located in Kansas City, Missouri. She primarily worked in Flash (ActionScript) to create delightful experiences for various holiday promotions. In 2007, she received an AIGA Award for interaction design for her work on the Hallmark Product (RED) microsite links with examples. She then went on to receive the Hallmark Marketing Excellence award in 2008 for her effective work throughout various parts of the organization.</p>
 
-In 2012, Julia and her family moved to North Carolina to be closer to family (and the mountains!). She joined Caktus Consulting Group as the first designer/developer in the company. Her work included projects for the Python Software Foundation, University of Chicago and Mozilla. 
+<p>Having the desire to dive deeper into the technical side of her work, Julia joined the elite team at the Lawrence Journal-World article about the LJW technical team based in Lawrence, Kansas in 2008. She worked alongside the core developers who created <a href="https://djangoproject.com/">Django</a>, a Python-based web framework, and started her journey into open source development. She worked with the team to create web and mobile interfaces for <a href="http://www.ellingtoncms.com/">Ellington CMS and Ellington Marketplace</a>. This work also included creating online video trainings and documentation to help support the broad customer base.</p>
 
-Starting around the same time as when she joined Caktus, Julia also helped found Girl Develop It RDU, a nonprofit organization that provides affordable programs for adult women interested in learning web and software development in a judgment-free environment. The organization has known grown to over 2,000 members and has taught over 100 classes in the Triangle area.
+<p>In 2012, Julia and her family moved to North Carolina to be closer to family (and the mountains!). She joined <a href="https://caktusgroup.com/">Caktus Consulting Group</a> as a front end designer in the company. Her work included projects for the <a href="https://www.python.org/psf/">Python Software Foundation</a>, <a href="http://www.uchicago.edu/">University of Chicago</a> and <a href="https://www.mozilla.org/en-US/">Mozilla</a>.</p>
 
-She currently works at 18F/GSA as a Lead Front end Designer.
+<p>Starting around the same time, Julia also helped found <a href="https://www.girldevelopit.com/chapters/raleigh-durham">Girl Develop It RDU</a>, a nonprofit organization that provides affordable programs for adult women interested in learning web and software development in a judgment-free environment. The organization has now grown to over 2,000 members and has taught over 100 classes in the Triangle area.</p>
+
+<p>She currently works at <a href="https://18f.gsa.gov/">18F/GSA</a> as a Lead Front end Designer.</p>
