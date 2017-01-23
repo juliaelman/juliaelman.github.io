@@ -2,12 +2,15 @@
 layout: base
 ---
 
-<time datetime="{{ page.date | date_to_xmlschema }} pubdate">
-  {{ page.date|date:'%d %B, %Y' }}
-</time>
-<h3>{{ page.title }}</h3>
-
-{{ content }}
+<div class="post">
+  <h3>
+    {{ page.title }}
+  </h3>
+  <time datetime="{{ page.date | date_to_xmlschema }} pubdate">
+  PUBLISHED: {{ page.date|date:'%d %B, %Y' }}
+  </time>
+  {{ content }}
+</div>
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
