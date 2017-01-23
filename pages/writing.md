@@ -25,7 +25,7 @@ Lightweight Django is a technical book that aims to show readers how to leverage
 <article>
   <p>
   	{% if post.external_url %}
-  		<a href="{{ post.external_url }}">
+  		<a href="{{ post.external_url }}" target="_blank">
 	  		{{ post.title }}
 	  	</a>
   	{% else %}
