@@ -64,12 +64,21 @@ $gray: #231F20;
 *,
 *:before,
 *:after {
+  
   box-sizing: border-box;
 }
 
 #content {
-  padding-top: 25px;
+  
   padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+// Screen reader only
+.sr-only {
+  
+  left: -999em;
+  position: absolute;
 }
 
 // Typography
@@ -79,9 +88,10 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  
   background-color: $cream;
-  color: $gray
+  color: $gray;
+  font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 h1 {
@@ -89,9 +99,10 @@ h1 {
 }
 
 h2 {
+  
   @include font-size-map($h2-font-size);
-  margin-top: 1em;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 h3 {
@@ -101,6 +112,7 @@ h3 {
 h1,
 h2,
 h3 {
+  
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -108,6 +120,7 @@ h3 {
 
 p,
 ul {
+  
   @include font-size-map($paragraph-font-size);
   line-height: 1.75;
   margin-bottom: 1em;
@@ -115,14 +128,18 @@ ul {
 }
 
 pre {
+  
   color: #FFFFFF;
   padding: 2em;
 }
 
 a {
+  
   color: $gray;
   font-weight: 300;
+  
   &:hover {
+    
     color: $emerald;
   }
 }
@@ -138,21 +155,27 @@ blockquote {
 }
 
 time {
-  text-transform: uppercase;
+  
   font-size: 14px;
+  text-transform: uppercase;
+  
   @media (max-width: $large) {
+    
     font-size: 11px;
   }
 }
 
 .subtitle {
+  
   font-size: 1.2em;
   line-height: 1.8;
 }
 
 h3 {
   margin-top: 1.5em;
+  
   &:first-of-type {
+    
     margin-top: 2em;
   }
 }
@@ -164,23 +187,28 @@ img {
 }
 
 img.profile {
-  float: right;
+  
   clear: both;
+  float: right;
   padding-left: 15px;
   padding-right: 15px;
-  width: 300px;
-  @media (max-width: $medium) {
-    float: none;
+  width: 350px;
+  
+  @media (max-width: $small) {
+    width: 200px;
   }
 }
 
 // Grid
 // ====================
 .container {
+  
   display: block;
   margin: auto;
   max-width: $medium;
+  
   @media (max-width: $large) {
+    
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -189,17 +217,33 @@ img.profile {
 // Footer
 // ====================
 footer {
+  
   @extend .container;
+  
   .social {
+    
     float: left;
+    
     li {
-      padding: 10px 0;
+      padding-top: 10px;
+      &:first-of-type {
+        padding-top: 0;
+      }
     }
   }
   .contact {
+    
     float: right;
+    
+    @media (max-width: $small) {
+      
+      width: 70%;
+    }
+    
     @media (max-width: $xsmall) {
+      
       float: left;
+      width: 100%;
     }
   }
 }
@@ -207,19 +251,28 @@ footer {
 // Header
 // ====================
 header {
-  position: relative;
+  
   padding-top: 25px;
+  position: relative;
+  
   h1 {
+    
     display: inline;
+    
     a {
+      
       font-weight: 700;
       text-decoration: none;
     }
+    
     img {
+      
       position: relative;
       top: 6px;
       width: 50px;
+      
       @media (max-width: $xsmall) {
+        
         width: 35px;
       }
     }
@@ -229,16 +282,19 @@ header {
 // Navigation
 // ====================
 .skipnav {
+  
   background: $cream;
-  border-right: 2px solid $gray;
   border-bottom: 2px solid $gray;
+  border-right: 2px solid $gray;
   left: 0;
   padding: 1rem 1.5rem;
   position: absolute;
   top: -4.2rem;
   transition: all 0.2s ease-in-out;
   z-index: 100;
+  
   &:focus {
+    
     left: 0;
     outline: 0;
     position: absolute;
@@ -248,15 +304,19 @@ header {
 }
 
 nav {
+  
   float: right;
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: 300;
+  
   li {
+    
     display: inline-block;
-    margin-left: 8px;
     font-weight: 700;
+    margin-left: 8px;
   }
-  @media (max-width: #{$medium}) {
+  @media (max-width: $medium) {
+    
     height: 100%;
     left: 110%;
     position: fixed;
@@ -265,21 +325,28 @@ nav {
 }
 
 .menu-btn {
+  
   display: none;
   float: right;
+  
+  &:after {
+    
+    content: 'MENU';
+  }
+  
   @media (max-width: $medium) {
     display: block;
     margin-top: 15px;
   }
-  &:after {
-    content: 'MENU';
-  }
-  @media (max-width: $small) {
+  
+  @media (max-width: $xsmall) {
+    
     margin-top: 5px;
   }
 }
 
 #overlay {
+  
   height: 100%;
   left: 100%;
   position: fixed;
@@ -288,21 +355,27 @@ nav {
 
 .menu--active {
   nav {
-    padding-top: 70px;
+    
     float: none;
+    padding-top: 70px;
+    
     li {
+      
       display: block;
-      text-align: center;
       font-size: 28px;
       font-weight: 700;
-      padding-top: 1em;
       padding-bottom: 1em;
+      padding-top: 1em;
+      text-align: center;
     }
+    
     a:hover {
+      
       color: $gray;
       font-weight: 700;
     }
   }
+  
   .menu-btn:after {
     content: 'X';
   }
@@ -311,6 +384,7 @@ nav {
 // Button
 // ====================
 .button {
+  
   border: 3px solid $gray;
   color: $gray;
   cursor: pointer;
@@ -320,31 +394,85 @@ nav {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  
   &:hover {
+    
     background-color: $emerald;
     color: $gray;
   }
+  
   @media (max-width: $medium) {
+    
     font-size: 10px;
     min-width: 60px;
+  }
+}
+
+// Home
+// ====================
+#home {
+  
+  #content {
+    
+    p {
+      
+      font-size: 24px;
+    }
   }
 }
 
 // Post
 // ====================
 .post {
-  h3:first-of-type {
-    margin-top: 0;
+  
+  .title {
+    
+    margin-bottom: 0;  
   }
+  
+  h3:first-of-type{
+    
+    margin-top: 1.5em;
+    
+  }
+  
   li {
+    
     list-style: disc;
     margin: 1.5em 2em;
   }
 }
 
 #disqus_thread {
+  
   background-color: #FFFFFF;
-  padding: 10px;
-  margin-top: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+// 404
+// ====================
+#fourofour {
+  
+    background: url('/assets/images/fourofour.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+    #content {
+      
+      background: #FFFFFF;
+      margin: 0 auto;
+      opacity: 0.9;
+      padding: 50px 40px;
+      position: relative;
+      top: 100px;
+      width: 50%;
+      
+      @media (max-width: $medium) {
+        
+        padding: 40px 30px;
+        width: 70%;
+      }
+    }
 }
