@@ -26,7 +26,7 @@ body_id: page-list
 	</p>
 </article>
 <h3>
-	<a href="https://trinket/io/">trinket</a>
+	<a href="https://trinket.io/">trinket</a>
 </h3>
 <article>
 	<p>
