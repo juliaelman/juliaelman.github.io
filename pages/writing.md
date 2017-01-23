@@ -9,7 +9,7 @@ body_id: page-list
 
 <h3>Book</h3>
 
-[Lightweight Django](link to O'Reilly)
+[Lightweight Django](http://shop.oreilly.com/product/0636920032502.do)
 Lightweight Django is a technical book that aims to show readers how to leverage the Django framework to work with modern web applications.
 
 {% for post in site.posts %}
