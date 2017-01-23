@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Writing
-permalink: writing
+permalink: /writing/
 body_id: page-list
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: about
+permalink: /about/
 body_id: page-detail
 ---
 <img src="/assets/images/julia-elman.png" alt="Julia Elman" class="profile">
