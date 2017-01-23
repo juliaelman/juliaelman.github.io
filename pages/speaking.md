@@ -1,11 +1,20 @@
 ---
-layout: base
+layout: default
 title: Speaking
 permalink: /speaking/
 body_id: page-list
 ---
 
-<h4>2016</h4>
+<p class="subtitle">Looking for technical speakers for your event? <a href="mailto:hello@juliaelman.com?subject=Hello, Julia! Let's talk speaking.">Write to me.</a></p>
+
+<h3>2016</h3>
+<article>
+	<p>
+		<a href="https://talkpython.fm/episodes/show/88/lightweight-django">
+			Talk Python Podcast, Episode 88
+		</a>
+	</p>
+</article>
 <article>
 	<p>
 		<a href="http://elaconf.com/">
@@ -20,7 +29,7 @@ body_id: page-list
 		</a>
 	</p>
 </article>
-<h4>2014</h4>
+<h3>2014</h3>
 <article>
 	<p>
 		<a href="http://frontporch.io/">
@@ -41,7 +50,7 @@ body_id: page-list
 <article>
 	<p>PyTennessee</p>
 </article>
-<h4>2013</h4>
+<h3>2013</h3>
 <article>
 	<p>SecondConf</p>
 </article>
@@ -59,7 +68,7 @@ body_id: page-list
 		</a>
 	</p>
 </article>
-<h4>2012</h4>
+<h3>2012</h3>
 <article>
 	<p>
 		<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
