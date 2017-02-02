@@ -5,6 +5,9 @@ var navMenu = navMenu || {};
 navMenu = function() {
 
   this.init = function() {
+    
+    $('html').addClass('menu_mobile');
+    
     $('.menu-btn').on('click', function() {
       $('body').hasClass('menu--active') ? app.hide() : app.show();
     });

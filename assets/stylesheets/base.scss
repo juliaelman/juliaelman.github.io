@@ -85,6 +85,12 @@ $gray: #231F20;
 // ====================
 html {
   @include font-size-map($html-font-size);
+  
+  &.no-js {
+    
+    background-color: #cd0000;
+    
+  }
 }
 
 body {
@@ -309,39 +315,59 @@ nav {
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: 300;
   
+  @media (max-width: $medium) {
+    
+    float: none;
+  }
+  
   li {
     
     display: inline-block;
     font-weight: 700;
     margin-left: 8px;
-  }
-  @media (max-width: $medium) {
     
-    height: 100%;
-    left: 110%;
-    position: fixed;
-    width: 108%;
+    @media (max-width: $medium) {
+      
+      display: block;
+      
+    }
   }
 }
 
-.menu-btn {
+.menu_mobile {
   
-  display: none;
-  float: right;
-  
-  &:after {
+  nav {
     
-    content: 'MENU';
-  }
-  
-  @media (max-width: $medium) {
-    display: block;
-    margin-top: 15px;
-  }
-  
-  @media (max-width: $xsmall) {
+    @media (max-width: $medium) {
     
-    margin-top: 5px;
+      height: 100%;
+      left: 110%;
+      position: fixed;
+      width: 108%;
+    }
+  }
+
+  .menu-btn {
+    
+    @extend .button;
+    
+    display: none;
+    float: right;
+    
+    &:after {
+      
+      content: 'MENU';
+    }
+    
+    @media (max-width: $medium) {
+      display: block;
+      margin-top: 15px;
+    }
+    
+    @media (max-width: $xsmall) {
+      
+      margin-top: 5px;
+    }
   }
 }
 
