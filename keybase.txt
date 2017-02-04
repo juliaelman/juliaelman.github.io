@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/juliaelman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://juliaelman.com
+  * I am juliaelman (https://keybase.io/juliaelman) on keybase.
+  * I have a public key ASA9u1H1X9DVo9PSTbm2ZdOUMjhi7QPeVaCBdzh5-GLQGQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101f3471f5b9bbc859f2e58d5aca6bdf97fb8de432e92daaad1a9afbaeaec96ae3c0a",
+            "host": "keybase.io",
+            "kid": "01203dbb51f55fd0d5a3d3d24db9b665d394323862ed03de55a081773879f862d0190a",
+            "uid": "64efb149cf555a6e4964e4febadcbb19",
+            "username": "juliaelman"
+        },
+        "service": {
+            "hostname": "juliaelman.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486173957,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486173941,
+        "hash": "0303c9365587b4ec085b0753cbb68febc615b4366b408eb185882d20ff6619f6879c84539c57c80a4583b344d68130fd55543c649eb9ef0244d499a31fc7f7c4",
+        "seqno": 834603
+    },
+    "prev": "68f1e8c57611471f0302689126890cc0eb11c1045b31a566b94ca19c1e77268d",
+    "seqno": 23,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPbtR9V/Q1aPT0k25tmXTlDI4Yu0D3lWggXc4efhi0BkKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZjM0NzFmNWI5YmJjODU5ZjJlNThkNWFjYTZiZGY5N2ZiOGRlNDMyZTkyZGFhYWQxYTlhZmJhZWFlYzk2YWUzYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2RiYjUxZjU1ZmQwZDVhM2QzZDI0ZGI5YjY2NWQzOTQzMjM4NjJlZDAzZGU1NWEwODE3NzM4NzlmODYyZDAxOTBhIiwidWlkIjoiNjRlZmIxNDljZjU1NWE2ZTQ5NjRlNGZlYmFkY2JiMTkiLCJ1c2VybmFtZSI6Imp1bGlhZWxtYW4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6Imp1bGlhZWxtYW4uY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NjE3Mzk1NywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2MTczOTQxLCJoYXNoIjoiMDMwM2M5MzY1NTg3YjRlYzA4NWIwNzUzY2JiNjhmZWJjNjE1YjQzNjZiNDA4ZWIxODU4ODJkMjBmZjY2MTlmNjg3OWM4NDUzOWM1N2M4MGE0NTgzYjM0NGQ2ODEzMGZkNTU1NDNjNjQ5ZWI5ZWYwMjQ0ZDQ5OWEzMWZjN2Y3YzQiLCJzZXFubyI6ODM0NjAzfSwicHJldiI6IjY4ZjFlOGM1NzYxMTQ3MWYwMzAyNjg5MTI2ODkwY2MwZWIxMWMxMDQ1YjMxYTU2NmI5NGNhMTljMWU3NzI2OGQiLCJzZXFubyI6MjMsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA+7NCvvUAMtSKUC6rCYJslKpeAS9PR0R1MW0Ht/t2mAF/MCATyeNaz5Ie+c9uUyITQ9NVPoy4RxHMpBSEgyxJDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFBMwiUxK7+0epNZHc+emIMkNO1vKNNz4d/Ht8zGBJx9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/juliaelman
+
+==================================================================
