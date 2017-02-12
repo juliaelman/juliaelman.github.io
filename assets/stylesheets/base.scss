@@ -43,7 +43,7 @@
 // Responsive
 $large: 1200px;
 $medium: 1024px;
-$small: 640px;
+$small: 720px;
 $xsmall: 480px;
 
 // Fonts
@@ -66,12 +66,6 @@ $gray: #231F20;
 *:after {
   
   box-sizing: border-box;
-}
-
-#content {
-  
-  padding-bottom: 25px;
-  padding-top: 25px;
 }
 
 // Screen reader only
@@ -171,6 +165,11 @@ time {
   }
 }
 
+#content {
+  
+  padding-bottom: 40px;
+}
+
 .subtitle {
   
   font-size: 1.2em;
@@ -211,7 +210,7 @@ img.profile {
   
   display: block;
   margin: auto;
-  max-width: $medium;
+  max-width: $small;
   
   @media (max-width: $large) {
     
@@ -256,7 +255,7 @@ footer {
 
 // Header
 // ====================
-header {
+header[role="banner"] {
   
   padding-top: 25px;
   position: relative;
@@ -311,14 +310,8 @@ header {
 
 nav {
   
-  float: right;
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: 300;
-  
-  @media (max-width: $medium) {
-    
-    float: none;
-  }
   
   li {
     
@@ -449,9 +442,18 @@ nav {
 // ====================
 .post {
   
-  .title {
+  header {
     
-    margin-bottom: 0;  
+    padding-bottom: 20px;
+    
+    @media (max-width: $medium) {
+      padding-top: 20px;
+      
+    }
+    
+    > h2 {
+      margin-bottom: 0;
+    }  
   }
   
   h3:first-of-type{

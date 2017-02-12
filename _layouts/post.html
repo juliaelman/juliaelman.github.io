@@ -3,12 +3,14 @@ layout: base
 ---
 
 <div class="post">
-  <h2 class="title">
-    {{ page.title }}
-  </h2>
-  <time datetime="{{ page.date | date_to_xmlschema }} pubdate">
-  PUBLISHED: {{ page.date|date:'%d %B, %Y' }}
-  </time>
+  <header>
+    <h2>
+      {{ page.title }}
+    </h2>
+    <time datetime="{{ page.date | date_to_xmlschema }} pubdate">
+    PUBLISHED: {{ page.date|date:'%d %B, %Y' }}
+    </time>
+  </header>
   {{ content }}
 </div>
 
