@@ -431,10 +431,23 @@ nav {
   
   #content {
     
-    padding-top: 40px;
+    padding-top: 20px;
     
-    p { 
+    @media (max-width: $medium) {
+      
+      padding-top: 40px;
+      
+    }
+    
+    p {
+      margin-top: 1em; 
       font-size: 24px;
+      
+      @media (max-width: $small) {
+        
+        font-size: 18px;
+        
+      }
     }
   }
 }
