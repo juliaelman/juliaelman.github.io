@@ -12,7 +12,7 @@ body_id: page-list
 </h3>
 <article>
 	<p>
-		Julia is a team lead for the <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, a library of open-source UI components and visual styles to create beautiful, consistent experiences across the federal government. It has been used by over 100 federal and states agencies since its launch in 2015.
+		Led the first <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, a library of open-source UI components and visual styles to create beautiful, consistent experiences across the federal government. It has been used by over 100 federal and states agencies since its launch in 2015.
 	</p>
 </article>
 <h3>
@@ -28,7 +28,7 @@ body_id: page-list
 </h3>
 <article>
 	<p>
-		Led design and branding for Trinket, an online application that lets you run and write code in any browser, on any device. She worked with the team to develop new branding and messaging for the company. Read more about this process in this case study. <a href="/blog/2014/01/22/creating-trinket">Read more about the process.</a>
+		Led design and branding for Trinket, an online application that lets you run and write code in any browser, on any device. She worked with the team to develop new branding and messaging for the company. <a href="/blog/2014/01/22/creating-trinket">Read more about the process.</a>
 	</p>
 </article>
 <h3>
