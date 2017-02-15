@@ -5,16 +5,14 @@ permalink: /work/
 body_id: page-list
 ---
 
-<p class="subtitle">Below are just a few of the projects I have worked on throughout my lengthy career in web design and development.</p>
-
-<p class="subtitle">Looking to hire a Senior UI Developer or technical consultant? <a href="mailto:hello@juliaelman.com?subject=Hello, Julia! Let's talk about design and code.">Write to me.</a></p>
+<p class="subtitle">Below are a selection of projects I have worked on throughout my career.</p>
 
 <h3>
-	<a href="https://standards.usa.gov/">Draft U.S. Web Design Standards</a>
+	<a href="https://standards.usa.gov/">U.S. Web Design Standards</a>
 </h3>
 <article>
 	<p>
-		Julia is a key architect and technical lead for the U.S. Web Design Standards, a library of open-source UI components and visual styles to create beautiful, consistent experiences across federal government websites.
+		Julia is a team lead for the <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, a library of open-source UI components and visual styles to create beautiful, consistent experiences across the federal government. It has been used by over 100 federal and states agencies since its launch in 2015.
 	</p>
 </article>
 <h3>
@@ -22,15 +20,15 @@ body_id: page-list
 </h3>
 <article>
 	<p>
-		Worked with a small team at 18F and the Office of Government-wide Policy to design and develop an interface for cataloging .gov urls for https compliance and Digital Analytics Program participation. 
+		Led the front end design and development for <a href="https://pulse.cio.gov/">Pulse</a>, a project of the General Services Administration that measures how U.S. government domains are following best practices for federal websites. Her team worked directly with the clients at the <a href="https://gsa.gov/portal/content/104550">Office of Government-wide Policy</a> to design and develop an interface for cataloging .gov urls for https compliance and <a href="https://www.digitalgov.gov/services/dap/">Digital Analytics Program</a> participation. Since its launch, SSL implementation for government urls has increased by 118%.
 	</p>
 </article>
 <h3>
-	<a href="https://trinket.io/">trinket</a>
+	<a href="https://trinket.io/">Trinket</a>
 </h3>
 <article>
 	<p>
-		Lead the design and branding for trinket, an online application that lets you run and write code in any browser, on any device. Read the branding case study by <a href="/blog/2014/01/22/creating-trinket">clicking this link.</a>
+		Led design and branding for Trinket, an online application that lets you run and write code in any browser, on any device. She worked with the team to develop new branding and messaging for the company. Read more about this process in this case study. <a href="/blog/2014/01/22/creating-trinket">Read more about the process.</a>
 	</p>
 </article>
 <h3>
@@ -38,7 +36,7 @@ body_id: page-list
 </h3>
 <article>
 	<p>
-		Built the front end code base for the re-design of Mozillians.org, a community directory for Mozilla core individuals and groups that participate.
+		Developed and designed the front end interface for <a href="https://mozillians.org/">Mozillians.org</a>, a community directory for Mozilla core individuals and groups that participate. Julia worked with a team of  product managers, designers, and developers to build a new interface for a directory servicing over 2,500 users.
 	</p>
 </article>
 <h3>
@@ -48,6 +46,6 @@ body_id: page-list
 </h3>
 <article>
 	<p>
-		Designed and built applications for Ellington CMS and Marketplace, a premiere newsroom content management system and online advertising platforms. She helped design and implement various components, as well as created training materials for the broad client base.
+		Developed and designed applications for <a href="http://www.ellingtoncms.com/">Ellington CMS and Marketplace</a>, a premiere newsroom content management system and online advertising platforms. She designed and coded various components, as well as created video training materials for a client base with varying degrees of technological proficiency.
 	</p>
 </article>
