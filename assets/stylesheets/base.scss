@@ -48,7 +48,7 @@ $xsmall: 480px;
 
 // Fonts
 $html-font-size: ( null: 18px, $medium: 15px, $small: 14px, $xsmall: 13px);
-$h1-font-size: ( null: 48px, $small: 36px);
+$h1-font-size: ( null: 48px, $small: 36px, $xsmall: 24px);
 $h2-font-size: ( null: 36px, $small: 24px);
 $h3-font-size: ( null: 24px, $small: 18px);
 $sub-head: ( null: 24px, $large: 24px, $medium: 20px, $xsmall: 15px);
@@ -170,6 +170,13 @@ time {
   padding-bottom: 40px;
 }
 
+.title {
+  
+  @media (max-width: $xsmall) {
+    margin-top: 2em;
+  }
+}
+
 .subtitle {
   
   font-size: 1.2em;
@@ -244,12 +251,6 @@ footer {
       
       width: 70%;
     }
-    
-    @media (max-width: $xsmall) {
-      
-      float: left;
-      width: 100%;
-    }
   }
 }
 
@@ -278,7 +279,7 @@ header[role="banner"] {
       
       @media (max-width: $xsmall) {
         
-        width: 35px;
+        width: 30px;
       }
     }
   }
@@ -376,7 +377,7 @@ nav {
   nav {
     
     float: none;
-    padding-top: 70px;
+    padding-top: 50px;
     
     li {
       
@@ -418,8 +419,9 @@ nav {
     color: $gray;
   }
   
-  @media (max-width: $medium) {
+  @media (max-width: $small) {
     
+    border: 2px solid $gray;
     font-size: 10px;
     min-width: 60px;
   }
@@ -432,12 +434,6 @@ nav {
   #content {
     
     padding-top: 20px;
-    
-    @media (max-width: $medium) {
-      
-      padding-top: 40px;
-      
-    }
     
     p {
       margin-top: 1em; 
