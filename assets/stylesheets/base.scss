@@ -435,6 +435,12 @@ nav {
     
     padding-top: 20px;
     
+    @media (max-width: $medium) {
+      
+      padding-top: 30px;
+      
+    }
+    
     p {
       margin-top: 1em; 
       font-size: 20px;
