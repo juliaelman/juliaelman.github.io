@@ -5,12 +5,10 @@ permalink: /writing/
 body_id: page-list
 ---
 
-<p class="subtitle">Looking for someone to help with your technical writing dilemma? <a href="mailto:hello@juliaelman.com?subject=Hello, Julia! Let's talk writing.">Write to me.</a></p>
-
 <h3>Book</h3>
 
 [Lightweight Django](http://shop.oreilly.com/product/0636920032502.do)
-Lightweight Django is a technical book that aims to show readers how to leverage the Django framework to work with modern web applications.
+Lightweight Django is a technical book that aims to show readers how to leverage the <a href="https://www.djangoproject.com/">Django framework</a> to work with modern web applications.
 
 {% for post in site.posts %}
 {% unless post.next %}
