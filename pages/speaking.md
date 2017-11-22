@@ -80,16 +80,8 @@ body_id: page-list
 </article>
 <h3>2012</h3>
 <article>
-	<p>
-		<a href="http://lanyrd.com/2012/pycarolinas/syhmt/">
-			PyCarolinas, <em>Working with Designers</em>
-		</a>
-	</p>
+	<p>PyCarolinas, <em>Working with Designers</em></p>
 </article>
 <article>
-	<p>
-		<a href="http://lanyrd.com/2012/djangocon-us/sxbyd/">
-			DjangoCon, <em>Is Django for Designers?</em>
-		</a>
-	</p>
+	<p>DjangoCon, <em>Is Django for Designers?</em></p>
 </article>
