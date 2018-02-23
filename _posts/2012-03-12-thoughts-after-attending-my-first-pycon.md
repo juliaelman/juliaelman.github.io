@@ -13,7 +13,7 @@ A few months ago, I was waiting outside of the Free State Brewery to meet my fri
 
 I am so glad I listened to him.
 
-I checked out the conference schedule and immediately saw quite a few talks I was super interested in going to! [Idan Gazit's](http://gazit.me/) two talks were especially [enlightening](http://lanyrd.com/2012/pycon/spckb/) and [motivating](http://www.youtube.com/watch?v=vfYul2E56fo) for me.
+I checked out the conference schedule and immediately saw quite a few talks I was super interested in going to! [Idan Gazit's](http://gazit.me/) two talks were especially enlightening and [motivating](http://www.youtube.com/watch?v=vfYul2E56fo) for me.
 
 A lot of my old co-workers from Mediaphormedia were there and we got to have a mini reunion in the conference hotel lobby. It was so great to see everyone, catch up on the awesome projects everyone is working on and what exciting ones are in store for the future.
 
