@@ -6,7 +6,7 @@ body_id: page-detail
 ---
 <img src="/assets/images/julia-elman.png" alt="Julia Elman" class="profile">
 
-<p>Julia Elman is the Director of Design at <a href="https://zapier.com/">Zapier</a>. She has 13 years of experience in design and technology. Known as a leader in her field, her most recent work includes the <a href="https://standards.usa.gov">U.S. Web Design Standards</a> project, <a href="https://pulse.cio.gov">Pulse</a> and developing the project scoping and evaluation process for 18F Experience Design.</p>
+<p>Julia Elman is the Director of Design at <a href="https://zapier.com/">Zapier</a>. She has 13 years of experience in design and technology. Known as a leader in her field, her most recent work includes the <a href="https://designsystem.digital.gov/">U.S. Web Design System</a> project, <a href="https://pulse.cio.gov">Pulse</a> and developing the project scoping and evaluation process for 18F Experience Design.</p>
 
 Prior to Zapier, Julia published a book called <em><a href="https://bit.ly/lightweightdjango">Lightweight Django</a></em> with <a href="https://www.oreilly.com/">O’Reilly Media</a>. She also wrote curriculum and tutorials about design and development as the Front end Engineering Instructor at the <a href="https://www.theironyard.com/">Iron Yard Academy</a>. She has also worked with clients such as <a href="https://www.mozilla.org/en-US/">Mozilla</a>, the <a href="https://www.python.org/psf/">Python Software Foundation</a>, <a href="">University of Chicago</a>, <a href="https://www.hallmark.com/">Hallmark Cards</a> and <a href="https://red.org/">Product(RED)</a>.
 

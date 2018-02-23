@@ -8,11 +8,11 @@ body_id: page-list
 <p class="subtitle">Below are a selection of projects I have worked on throughout my career.</p>
 
 <h3>
-	<a href="https://standards.usa.gov/">U.S. Web Design Standards</a>
+	<a href="https://designsystem.digital.gov/">U.S. Web Design System</a>
 </h3>
 <article>
 	<p>
-		Led the first <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, a library of open-source UI components and visual styles to create beautiful, consistent experiences across the federal government. It has been used by over 100 federal and states agencies since its launch in 2015.
+		Led the first <a href="https://designsystem.digital.gov/">U.S. Web Design System</a>, a library of open-source UI components and visual styles to create beautiful, consistent experiences across the federal government. It has been used by over 100 federal and states agencies since its launch in 2015.
 	</p>
 </article>
 <h3>
