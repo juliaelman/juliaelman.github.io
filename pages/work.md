@@ -8,6 +8,15 @@ body_id: page-list
 <p class="subtitle">Below are a selection of projects I have worked on throughout my career.</p>
 
 <h3>
+	<a href="https://zapier.com/brand/">Zapier Visual Identity</a>
+</h3>
+<article>
+	<p>
+		Led the <a href="https://zapier.com/brand/">Zapier Visual Identity</a> project to create a cohesive guide and resource library around the Zapier brand. [Read about the process.](https://zapier.com/blog/remote-design-visual-identity/)
+	</p>
+</article>
+
+<h3>
 	<a href="https://designsystem.digital.gov/">U.S. Web Design System</a>
 </h3>
 <article>
@@ -21,14 +30,6 @@ body_id: page-list
 <article>
 	<p>
 		Led the front end design and development for <a href="https://pulse.cio.gov/">Pulse</a>, a project of the General Services Administration that measures how U.S. government domains are following best practices for federal websites. Her team worked directly with the clients at the <a href="https://gsa.gov/portal/content/104550">Office of Government-wide Policy</a> to design and develop an interface for cataloging .gov urls for https compliance and <a href="https://www.digitalgov.gov/services/dap/">Digital Analytics Program</a> participation. Since its launch, SSL implementation for government urls has increased by 118%.
-	</p>
-</article>
-<h3>
-	<a href="https://trinket.io/">Trinket</a>
-</h3>
-<article>
-	<p>
-		Led design and branding for Trinket, an online application that lets you run and write code in any browser, on any device. She worked with the team to develop new branding and messaging for the company. <a href="/blog/2014/01/22/creating-trinket">Read more about the process.</a>
 	</p>
 </article>
 <h3>
