@@ -1,5 +1,5 @@
---- 
---- 
+---
+---
 
 @charset 'utf-8';
 
@@ -64,13 +64,13 @@ $gray: #231F20;
 *,
 *:before,
 *:after {
-  
+
   box-sizing: border-box;
 }
 
 // Screen reader only
 .sr-only {
-  
+
   left: -999em;
   position: absolute;
 }
@@ -79,16 +79,16 @@ $gray: #231F20;
 // ====================
 html {
   @include font-size-map($html-font-size);
-  
+
   &.no-js {
-    
+
     background-color: #cd0000;
-    
+
   }
 }
 
 body {
-  
+
   background-color: $cream;
   color: $gray;
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -99,7 +99,7 @@ h1 {
 }
 
 h2 {
-  
+
   @include font-size-map($h2-font-size);
   margin-bottom: 1em;
   margin-top: 1em;
@@ -112,7 +112,7 @@ h3 {
 h1,
 h2,
 h3 {
-  
+
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -120,7 +120,7 @@ h3 {
 
 p,
 ul {
-  
+
   @include font-size-map($paragraph-font-size);
   line-height: 2em;
   margin-bottom: 1em;
@@ -128,18 +128,18 @@ ul {
 }
 
 pre {
-  
+
   color: #FFFFFF;
   padding: 2em;
 }
 
 a {
-  
+
   color: $gray;
   font-weight: 300;
-  
+
   &:hover {
-    
+
     color: $emerald;
   }
 }
@@ -155,39 +155,39 @@ blockquote {
 }
 
 time {
-  
+
   font-size: 14px;
   text-transform: uppercase;
-  
+
   @media (max-width: $large) {
-    
+
     font-size: 11px;
   }
 }
 
 #content {
-  
+
   padding-bottom: 40px;
 }
 
 .title {
-  
+
   @media (max-width: $xsmall) {
     margin-top: 2em;
   }
 }
 
 .subtitle {
-  
+
   font-size: 1.2em;
   line-height: 1.8;
 }
 
 h3 {
   margin-top: 1.5em;
-  
+
   &:first-of-type {
-    
+
     margin-top: 2em;
   }
 }
@@ -199,13 +199,13 @@ img {
 }
 
 img.profile {
-  
+
   clear: both;
   float: right;
   padding-left: 15px;
   padding-right: 15px;
-  width: 350px;
-  
+  width: 300px;
+
   @media (max-width: $small) {
     width: 200px;
   }
@@ -214,13 +214,13 @@ img.profile {
 // Grid
 // ====================
 .container {
-  
+
   display: block;
   margin: auto;
   max-width: $small;
-  
+
   @media (max-width: $large) {
-    
+
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -229,13 +229,13 @@ img.profile {
 // Footer
 // ====================
 footer {
-  
+
   @extend .container;
-  
+
   .social {
-    
+
     float: left;
-    
+
     li {
       padding-top: 10px;
       &:first-of-type {
@@ -244,11 +244,11 @@ footer {
     }
   }
   .contact {
-    
+
     float: right;
-    
+
     @media (max-width: $small) {
-      
+
       width: 70%;
     }
   }
@@ -257,28 +257,28 @@ footer {
 // Header
 // ====================
 header[role="banner"] {
-  
+
   padding-top: 25px;
   position: relative;
-  
+
   h1 {
-    
+
     display: inline;
-    
+
     a {
-      
+
       font-weight: 700;
       text-decoration: none;
     }
-    
+
     img {
-      
+
       position: relative;
       top: 6px;
       width: 50px;
-      
+
       @media (max-width: $xsmall) {
-        
+
         width: 30px;
       }
     }
@@ -288,7 +288,7 @@ header[role="banner"] {
 // Navigation
 // ====================
 .skipnav {
-  
+
   background: $cream;
   border-bottom: 2px solid $gray;
   border-right: 2px solid $gray;
@@ -298,9 +298,9 @@ header[role="banner"] {
   top: -4.2rem;
   transition: all 0.2s ease-in-out;
   z-index: 100;
-  
+
   &:focus {
-    
+
     left: 0;
     outline: 0;
     position: absolute;
@@ -310,30 +310,30 @@ header[role="banner"] {
 }
 
 nav {
-  
+
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: 300;
-  
+
   li {
-    
+
     display: inline-block;
     font-weight: 700;
     margin-left: 8px;
-    
+
     @media (max-width: $medium) {
-      
+
       display: block;
-      
+
     }
   }
 }
 
 .menu_mobile {
-  
+
   nav {
-    
+
     @media (max-width: $medium) {
-    
+
       height: 100%;
       left: 110%;
       position: fixed;
@@ -342,31 +342,31 @@ nav {
   }
 
   .menu-btn {
-    
+
     @extend .button;
-    
+
     display: none;
     float: right;
-    
+
     &:after {
-      
+
       content: 'MENU';
     }
-    
+
     @media (max-width: $medium) {
       display: block;
       margin-top: 15px;
     }
-    
+
     @media (max-width: $xsmall) {
-      
+
       margin-top: 5px;
     }
   }
 }
 
 #overlay {
-  
+
   height: 100%;
   left: 100%;
   position: fixed;
@@ -375,26 +375,26 @@ nav {
 
 .menu--active {
   nav {
-    
+
     float: none;
     padding-top: 50px;
-    
+
     li {
-      
+
       display: block;
       font-size: 28px;
       font-weight: 700;
       text-align: center;
       margin-bottom: 10px;
     }
-    
+
     a:hover {
-      
+
       color: $gray;
       font-weight: 700;
     }
   }
-  
+
   .menu-btn:after {
     content: 'X';
   }
@@ -403,7 +403,7 @@ nav {
 // Button
 // ====================
 .button {
-  
+
   border: 3px solid $gray;
   color: $gray;
   cursor: pointer;
@@ -413,15 +413,15 @@ nav {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  
+
   &:hover {
-    
+
     background-color: $emerald;
     color: $gray;
   }
-  
+
   @media (max-width: $small) {
-    
+
     border: 2px solid $gray;
     font-size: 10px;
     min-width: 60px;
@@ -431,25 +431,25 @@ nav {
 // Home
 // ====================
 #home {
-  
+
   #content {
-    
+
     padding-top: 20px;
-    
+
     @media (max-width: $medium) {
-      
+
       padding-top: 30px;
-      
+
     }
-    
+
     p {
-      margin-top: 1em; 
+      margin-top: 1em;
       font-size: 20px;
-      
+
       @media (max-width: $small) {
-        
+
         font-size: 18px;
-        
+
       }
     }
   }
@@ -458,36 +458,36 @@ nav {
 // Post
 // ====================
 .post {
-  
+
   header {
-    
+
     padding-bottom: 20px;
-    
+
     @media (max-width: $medium) {
       padding-top: 20px;
-      
+
     }
-    
+
     > h2 {
       margin-bottom: 0;
-    }  
+    }
   }
-  
+
   h3:first-of-type{
-    
+
     margin-top: 1.5em;
-    
+
   }
-  
+
   li {
-    
+
     list-style: disc;
     margin: 1.5em 2em;
   }
 }
 
 #disqus_thread {
-  
+
   background-color: #FFFFFF;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -497,13 +497,13 @@ nav {
 // 404
 // ====================
 #fourofour {
-  
-    background: url('/assets/images/fourofour.jpg') no-repeat center center fixed; 
+
+    background: url('/assets/images/fourofour.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
-    
+
     #content {
-      
+
       background: #FFFFFF;
       margin: 0 auto;
       opacity: 0.9;
@@ -511,9 +511,9 @@ nav {
       position: relative;
       top: 100px;
       width: 50%;
-      
+
       @media (max-width: $medium) {
-        
+
         padding: 40px 30px;
         width: 70%;
       }
