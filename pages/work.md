@@ -12,7 +12,7 @@ body_id: page-list
 </h3>
 <article>
 	<p>
-		Led the <a href="https://zapier.com/brand/">Zapier Visual Identity</a> project to create a cohesive guide and resource library around the Zapier brand. [Read about the process.](https://zapier.com/blog/remote-design-visual-identity/)
+		Led the <a href="https://zapier.com/brand/">Zapier Visual Identity</a> project to create a cohesive guide and resource library around the Zapier brand. <a href="https://zapier.com/blog/remote-design-visual-identity/">Read about the process.</a>
 	</p>
 </article>
 
