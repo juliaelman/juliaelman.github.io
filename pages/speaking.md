@@ -8,23 +8,19 @@ body_id: page-list
 <h3>2016</h3>
 <article>
 	<p>
-		<a href="https://talkpython.fm/episodes/show/88/lightweight-django">
+			<a href="https://talkpython.fm/episodes/show/88/lightweight-django">
 			Talk Python Podcast
 		</a>
 	</p>
 </article>
 <article>
 	<p>
-		<a href="http://elaconf.com/agenda/werk-mama-and-the-third-shift/">
-			Ela Conf, <em>WERK MAMA: A tale from one working mama in the tech industry.</em>
-		</a>
+	  Ela Conf, <em>WERK MAMA: A tale from one working mama in the tech industry.</em>
 	</p>
 </article>
 <article>
 	<p>
-		<a href="http://womenintechsummit.net/">
-			Women in Tech Summit, Panel: <em>Staying a Woman in Tech</em>
-		</a>
+	  Women in Tech Summit, Panel: <em>Staying a Woman in Tech</em>
 	</p>
 </article>
 <h3>2015</h3>

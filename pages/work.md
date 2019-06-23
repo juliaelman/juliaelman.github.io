@@ -41,12 +41,12 @@ body_id: page-list
 	</p>
 </article>
 <h3>
-	<a href="http://www.ellingtoncms.com/">
+	<a href="https://www.ellingtoncms.com/">
 		Ellington CMS
 	</a>
 </h3>
 <article>
 	<p>
-		Developed and designed applications for <a href="http://www.ellingtoncms.com/">Ellington CMS and Marketplace</a>, a premiere newsroom content management system and online advertising platforms. She designed and coded various components, as well as created video training materials for a client base with varying degrees of technological proficiency.
+		Developed and designed applications for <a href="https://www.ellingtoncms.com/">Ellington CMS and Marketplace</a>, a premiere newsroom content management system and online advertising platforms. She designed and coded various components, as well as created video training materials for a client base with varying degrees of technological proficiency.
 	</p>
 </article>
