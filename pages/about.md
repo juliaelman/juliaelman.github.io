@@ -14,4 +14,4 @@ Earlier on in her career, Julia published a book called <em><a href="https://bit
 
 In 2012, Julia co-founded <a href="https://www.girldevelopit.com/chapters/raleigh-durham">Girl Develop It RDU</a>, a non-profit organization that provides affordable programs for women interested in learning web and software development in a judgment-free environment. The organization has grown to over 2,200 members and has taught over 100 classes within the Triangle area.
 
-Julia lives in “the sticks” in Durham, North Carolina with her partner, two kids, and a fluffy mutt named Digby. She enjoys hiking and camping and enjoys being in nature as much as possible. Her ideal day would be on top of a mountain somewhere with a picnic lunch.
+Julia lives in “the sticks” in Durham, North Carolina with her two kids and a fluffy mutt named Digby. She enjoys hiking and camping and enjoys being in nature as much as possible. Her ideal day would be on top of a mountain somewhere with a picnic lunch.
