@@ -8,6 +8,16 @@ body_id: page-list
 <p class="subtitle">Below are a selection of projects I have worked on throughout my career.</p>
 
 <h3>
+	<a href="https://developer.va.gov/">Department of Veterans Affairs Developer Portal</a>
+</h3>
+<article>
+	<p>
+	  Managed and led a fully remote UX Team to build the first openly available API program at the Department of Veterans Affairs. Key responsibilities include creating processes and workflows for design and research practices, training and onboarding individual contributors to a high growth program, writing performance reviews, partnering with Product Managers, Engineers and stakeholders to help produce meaningful outcomes for Veterans.
+	</p>
+</article>
+
+
+<h3>
 	<a href="https://zapier.com/brand/">Zapier Visual Identity</a>
 </h3>
 <article>
