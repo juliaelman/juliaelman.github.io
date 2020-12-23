@@ -479,10 +479,17 @@ nav {
 
   }
 
-  li {
-
+  ul {
     list-style: disc;
-    margin: 1.5em 2em;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  li {
+    line-height: 1.5;
+    margin: 2em;
   }
 }
 
