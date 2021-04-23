@@ -2,7 +2,6 @@
 layout: post
 title: Review of the Cosmonaut stylus
 permalink: /blog/2012/mar/20/review-cosmonaut-stylus-pen/
-comments: false
 ---
 
 I've been looking for a way to create quick sketches digitally. Just an easy way to share, create and mock-up ideas without having touch Photoshop. After going to [Idan Gazit's](http://gazit.me/) talk on sketching at PyCon a few weeks ago, I was really impressed with the pen he used. He said it was the [Cosmonaut created by Studio Neat](http://www.studioneat.com/products/cosmonaut). I decided to order it to give it a try and here is my first impression.

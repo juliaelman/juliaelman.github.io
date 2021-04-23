@@ -1,7 +1,6 @@
 ---
 layout: post
 title: What I've been up to lately
-comments: true
 ---
 
 So. It's been a while since I wrote a post. Mostly because... well... I've been busy.
@@ -17,5 +16,3 @@ AND, I am currently working on another talk for [SecondConf 2013](http://www.sec
 Needless to say, I am pretty busy. But all-in-all, this busy-ness is enlivening, inspiring and these are all amazing things be a part of.
 
 Plus, I just don't think I could do it any other way.
-
-

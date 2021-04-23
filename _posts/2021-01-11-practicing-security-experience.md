@@ -1,7 +1,6 @@
 ---
 layout: post
 title: On practicing Security Experience
-comments: true
 ---
 
 ![What's the difference between viruses, trojans, worms, etc? It doesn't matter. It's all crap no one wants on their computer. Stop teaching users worthless information that they'll never use. Taylor Swift](/assets/images/swift-on-security.png)

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Joining the iron yard
-comments: true
 ---
 
 This past March I had the privilege to be a mentor for [Pearl Hacks](http://pearlhacks.com/), a hackathon for college and high-school aged women at UNC-CH. It was an inspiring event for me and I really enjoyed seeing all of the amazing things that the students came up with! I had the opportunity to teach some of the attendees about [Django](http://djangoproject.com) and the fundamentals of starting their first Django project. It was very nostalgic and it also made me realize one thing: I love teaching.

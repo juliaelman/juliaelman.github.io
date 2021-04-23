@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Teen Tech camp recap
-comments: true
 ---
 
 As some of you [may already know](http://exitevent.com/teen-tech-camp-hosts-future-developers-1389.asp), last week I had the honor and privilege to help organize the 2013 Teen Tech Camp in Durham, North Carolina. The event was extremely challenging, fun and one of the most rewarding things I have ever been a part of.
@@ -83,4 +82,3 @@ Organizing the Teen Tech Camp has really sparked something in me. Having experie
 The Python community is just beginnning to understand the importance of raising the next generation to be creators and not just consumers. After-school Python clubs, tutorials and classes are starting to spring up around the globe, and more resources are becoming readily available. We all hear the call and I can sense a strong collaboration coming, which will  provide any child the type of education necessary to be successful.
 
 [Stay tuned](https://twitter.com/juliaelman/) and [keep in touch](mailto:juliaelman@gmail.com). We're already planning the 2014 Teen Tech Camp and I can't wait to tell you all about it.
-

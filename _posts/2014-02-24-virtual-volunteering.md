@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Virtual volunteering
-comments: true
 ---
 
 This past weekend I had the unique opportunity to speak at a first time conference [PyTennessee 2014](http://www.pytennessee.org/) in Nashville, TN. I gave a talk called "To the Moon and Back: Taking the Leap in Solving Big Problems." It's a talk I had given at [SecondConf 2013](http://secondconf.com/2013/) and am very happy to have been given the opportunity to bring this talk to the Python community.
@@ -19,7 +18,7 @@ During my talk, I touched on the past, present and future of solving big problem
 </blockquote>
 {% endraw %}
 
-This statement presents an answer to the question of our ability to solve big problems. So, how can we help as technologists? Where can we even start? 
+This statement presents an answer to the question of our ability to solve big problems. So, how can we help as technologists? Where can we even start?
 
 I mentioned a few virtual volunteering opportunities where we, as professional technologists, can help contribute our talents. I've started a short list below and also made it completely open source, [forkable on Github](https://github.com/juliaelman/juliaelman.github.com/blob/master/_posts/2014-02-24-virtual-volunteering.md). I encourage you to submit a pull request, or even shoot me a message on [Twitter](http://twitter.com/juliaelman) or email me at [juliaelman@gmail.com](mailto:juliaelman@gmail.com) for events and/or opportunities where professional technologists can give back. It's an exciting time and I am looking forward to hearing about all of the opportunities we have to help contribute and solve big problems.
 
@@ -32,7 +31,7 @@ A free event for teachers and programmers. I learned about this while at PyTenne
 [codeforamerica.org](http://codeforamerica.org)
 
 Code for America brings together local governments and technologists to make better cities for everyone.
-  
+
 ### Code Montage (Organization, Events)
 [codemontage.com](http://codemontage.com)
 
@@ -41,7 +40,7 @@ Code Montage helps empower coders to improve their impact on the world. On Janua
 ### Make Good (Virtual volunteering)
 [jenmyers.github.io/makegood](http://jenmyers.github.io/makegood)
 
-Virtual volunteering opportunities for web designers and developers. 
+Virtual volunteering opportunities for web designers and developers.
 
 ### Random Hacks of Kindness (Organization, Events)
 [rhok.org](http://rhok.org)

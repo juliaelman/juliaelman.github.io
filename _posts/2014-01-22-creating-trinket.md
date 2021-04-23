@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Creating trinket
-comments: true
 ---
 
 For the past four weeks, I have been helping to lead a rebranding effort for [Coursefork](http://coursefork.org). It has been an interesting journey for our team and I wanted to share how we came up with our new brand.
@@ -25,7 +24,7 @@ We started the process by creating a brand manifesto, a brand's clear and public
 
 ### Getting started
 
-After establishing the brand manifesto, it was time for us to really start the process of selecting a new name. 
+After establishing the brand manifesto, it was time for us to really start the process of selecting a new name.
 
 Nick Zafiropoulos, CEO at local startup [Brevado](http://brevado.com), recommended the [Igor Naming Guide](http://www.igorinternational.com/process/naming-guide-product-company-names.php) to help us through our rebranding process. I read through the guide and felt that it fit perfectly with the direction we wanted to take. So, we battened down our hatches and got to work!
 
@@ -56,7 +55,7 @@ The Name Evaluation is where you determine several aspects of the possible brand
 
 (I won't go into what each category means, but you can read more about them [here](http://www.igorinternational.com/process/name-evaluation-brand-evaluate-names.php).)
 
-We created a spreadsheet in which each name would be ranked and given a final score to determine it's potential. "Domain name" was also added to this ranking to determine what url options would be for each given name. 
+We created a spreadsheet in which each name would be ranked and given a final score to determine it's potential. "Domain name" was also added to this ranking to determine what url options would be for each given name.
 
 The team also came up with potential taglines for each of the 15 contenders. This helped in determining the marketing and positioning strategies that we would be capable of using with each brand. Each name had anywhere from 5-20 different taglines for us to choose from.
 

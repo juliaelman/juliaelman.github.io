@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Six months and counting
-comments: true
 ---
 
 ![Six Months and Counting](/assets/images/six-months-and-counting.jpg)
 
 While I am not a prolific writer on this site of mine, it's been quite a while since I've written something. In fact, it's been almost exactly six months since my [last post](/blog/2015/03/12/joining-18F/) and needless to say, I've been busy. So, I thought I'd write up what I've been up to in that time.
 
-One of the many exciting things that has been going on was joining the wonderfully talented and dedicated team at [18F](https://18f.gsa.gov). It's an amazing atmosphere to work in and contribute my skills and talents towards serving my country. 
+One of the many exciting things that has been going on was joining the wonderfully talented and dedicated team at [18F](https://18f.gsa.gov). It's an amazing atmosphere to work in and contribute my skills and talents towards serving my country.
 
 One of my first projects on the job was [Pulse](https://pulse.cio.gov) ([https://github.com/18F/pulse](https://github.com/18F/pulse)), how federal government domains are meeting best practices on the web. I worked with a small team for six weeks to design and develop a website in which various agencies around government are able to access and [measure the health of their HTTPS compliance and Digital Analytics Program (DAP) participation](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/). We're currently gearing up for the next phase of the project and are helping to develop more features for agencies towards building out this useful tool.
 

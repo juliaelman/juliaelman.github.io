@@ -2,7 +2,6 @@
 layout: post
 title: Lets get a little louder
 permalink: /blog/2012/jun/3/lets-get-little-louder/
-comments: true
 ---
 
 A month ago, I attended a design/front end development conference. I was so excited to attend. My employer even sponsored the conference to show their support.

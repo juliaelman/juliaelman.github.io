@@ -1,7 +1,6 @@
 ---
 layout: post
 title: What I've learned from teaching
-comments: true
 ---
 
 ![Julia Elman, Girl Develop It RDU](/assets/images/julia-elman-gdirdu-teaching.jpg)
@@ -10,7 +9,7 @@ In my journey into teaching, I learned many things about the craft and its role 
 
 ### Create different learning pathways
 
-One of the most common challenges I faced was how to deal with the different skill levels students bring to the classroom. Some students have very little experience while others come with many years of programming knowledge. What I have found is that throwing students with varying skill levels into one class can result in mass confusion. It's important that all of the students are at or close to the same skill level so they can keep up with the pace of instruction. 
+One of the most common challenges I faced was how to deal with the different skill levels students bring to the classroom. Some students have very little experience while others come with many years of programming knowledge. What I have found is that throwing students with varying skill levels into one class can result in mass confusion. It's important that all of the students are at or close to the same skill level so they can keep up with the pace of instruction.
 
 ### Get help
 
@@ -20,7 +19,7 @@ And if you are lucky enough to have one, hiring a good teaching assistant is som
 
 ### Your feedback on your job is your students
 
-I have typically been used to getting feedback on my job from bosses, other co-workers and colleagues. 
+I have typically been used to getting feedback on my job from bosses, other co-workers and colleagues.
 
 As a teacher, it is sometimes hard to evaluate how you are doing on the job. Were my students learning anything? Am I a horrible teacher? I spent about a week really agonizing about this and had to do a lot of thinking before coming to the conclusion that your feedback is from your students. Are they grasping the concepts? How are their projects turning out? All of these things were appropriate questions to be asking myself whenever I felt anxious about my job performance.
 

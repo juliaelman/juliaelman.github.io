@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Skating and Coding
-comments: false
 ---
 
 I recently watched the film [mid90s](https://en.wikipedia.org/wiki/Mid90s). And it got me thinking a lot about skating... and coding... and how the two relate to each other in my life.

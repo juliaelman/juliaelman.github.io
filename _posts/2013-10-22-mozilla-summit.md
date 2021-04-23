@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 2013 Mozilla Summit
-comments: true
 ---
 
 Earlier this month, I had the honor of being invited to attend the [2013 Mozilla Summit](https://wiki.mozilla.org/Summit2013) in Brussels, Belgium. It was an amazing experience and I wanted to share some of the highlights from my trip.

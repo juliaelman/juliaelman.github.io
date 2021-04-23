@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 2013 Teen Tech camp press release
-comments: true
 ---
 
 FOR IMMEDIATE RELEASE
@@ -19,4 +18,3 @@ Support from the following organizations has also helped to make this event poss
 The event will take place Tuesday, August 13, at the Southwest Durham Regional Library (3605 Shannon Rd., Durham, NC 27707) from 10:00AM – 5:00PM.
 
 For more information about the Teen Tech Camp 2013 and/or to schedule interviews, please email me at: [juliaelman@gmail.com](mailto:juliaelman@gmail.com)
-

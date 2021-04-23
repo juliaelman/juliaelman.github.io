@@ -2,7 +2,6 @@
 layout: post
 title: django-showcase
 permalink: /blog/2011/aug/15/django-showcase/
-comments: false
 ---
 
 I've been meaning for a while now to get this app up and running on Github. It's a pretty simple, light weight app whose primary purpose is to serve as a base skeletal structure for a showcase of the users work. It can be used for writing samples, photos or almost anything else you'd like to showcase!

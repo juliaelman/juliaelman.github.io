@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Thoughts after attending my second PyCon
-comments: true
 ---
 
 Here I am again, sitting in an airport waiting to board my flight away from PyCon. And what a conference it has been! Where do I even begin...

@@ -2,7 +2,6 @@
 layout: post
 title: A post post
 permalink: /blog/2012/jun/24/post-post/
-comments: true
 ---
 
 I've been fairly silent over the past few weeks. Some of that has been personal time and some for work. Working on something that I hope will be helpful to those of us who are at a loss about the issue of sexual harassment in the tech community. What can we really do and where do we start?

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Installing PyGame on OSX Mountain Lion
-comments: true
 ---
 
 Setting up local development environment is par for the course when programming. We've all had to do it at one time or another in our careers and shared in the pain points it brings with it.
@@ -34,7 +33,7 @@ Simple DirectMedia Layer is a cross-platform, free and open source multimedia li
 
 ### SQL mpeg library (smpeg)
 
-[http://icculus.org/smpeg/](http://icculus.org/smpeg/) 
+[http://icculus.org/smpeg/](http://icculus.org/smpeg/)
 
 smpeg is a mpeg decoding library. It interfaces with the Simple DirectMedia Layer to provide cross-platform MP3 playback for games.
 
@@ -42,7 +41,7 @@ smpeg is a mpeg decoding library. It interfaces with the Simple DirectMedia Laye
 
 [http://portmedia.sourceforge.net/portmidi/](http://portmedia.sourceforge.net/portmidi/)
 
-PortMidi is a computer library for real time input and output of MIDI data to aid in any music you would like to create for your game. 
+PortMidi is a computer library for real time input and output of MIDI data to aid in any music you would like to create for your game.
 
 ### Installation
 
@@ -69,4 +68,3 @@ sudo pip install hg+http://bitbucket.org/pygame/pygame
 {% endhighlight %}
 
 Now, open up a python shell prompt and type `import pygame`. Did it work? If so, congratulations! pygame is now installed on your machine.
-

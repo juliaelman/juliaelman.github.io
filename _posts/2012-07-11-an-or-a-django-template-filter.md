@@ -1,7 +1,6 @@
 ---
 layout: post
 title: An or a Django template filter
-comments: false
 ---
 
 I find that most projects are created out of need. You either look for something that does what you need, come up with an idea, find something that almost does what you want or both. That is how I created a new filter: anora.

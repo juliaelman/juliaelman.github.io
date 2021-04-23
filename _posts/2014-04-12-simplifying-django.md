@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Simplifying Django
-comments: false
 ---
 
 **The original post is listed on the O'Reilly Radar blog: [http://radar.oreilly.com/2014/04/simplifying-django.html](http://radar.oreilly.com/2014/04/simplifying-django.html)**
@@ -30,25 +29,25 @@ To show what we mean, let's build out a sample of what a more simplified Django 
 
 {% highlight python %}
 import sys
- 
+
 from django.conf import settings
 from django.conf.urls import patterns
 from django.http import HttpResponse
 from django.core.management import execute_from_command_line
- 
+
 settings.configure(
     DEBUG=True,
     SECRET_KEY='placerandomsecretkeyhere',
     ROOT_URLCONF=sys.modules[__name__],
 )
- 
+
 def index(request):
     return HttpResponse('Powered by Django')
- 
-urlpatterns = patterns('', 
+
+urlpatterns = patterns('',
     (r'^$', index),
 )
- 
+
 if __name__ == "__main__":
     execute_from_command_line(sys.argv)
 {% endhighlight %}
@@ -59,7 +58,7 @@ First, we'll need to make sure to include Django's HTTP response request utility
 
 {% highlight python %}
 from django.http import HttpResponse
- 
+
 def index(request):
     return HttpResponse('Powered by Django')
 {% endhighlight %}
@@ -71,11 +70,11 @@ The next portion of the application ties in nicely in with this portion is the u
 {% highlight python %}
 from django.conf.urls import patterns
 from django.http import HttpResponse
- 
+
 def index(request):
     return HttpResponse('Powered by Django')
- 
-urlpatterns = patterns('', 
+
+urlpatterns = patterns('',
     (r'^$', index),
 )
 {% endhighlight %}
@@ -84,21 +83,21 @@ From only seven lines of code we have already created the basics to run an appli
 
 {% highlight python %}
 import sys
- 
+
 from django.conf import settings
 from django.conf.urls import patterns
 from django.http import HttpResponse
- 
+
 settings.configure(
     DEBUG=True,
     SECRET_KEY='placerandomsecretkeyhere',
     ROOT_URLCONF=sys.modules[__name__],
 )
- 
+
 def index(request):
     return HttpResponse('Powered by Django')
- 
-urlpatterns = patterns('', 
+
+urlpatterns = patterns('',
     (r'^$', index),
 )
 {% endhighlight %}
@@ -111,25 +110,25 @@ Since we are not generating this structure by using the <code>startproject</code
 
 {% highlight python %}
 import sys
- 
+
 from django.conf import settings
 from django.conf.urls import patterns
 from django.http import HttpResponse
 from django.core.management import execute_from_command_line
- 
+
 settings.configure(
     DEBUG=True,
     SECRET_KEY='placerandomsecretkeyhere',
     ROOT_URLCONF=sys.modules[__name__],
 )
- 
+
 def index(request):
     return HttpResponse('Powered by Django')
- 
-urlpatterns = patterns('', 
+
+urlpatterns = patterns('',
     (r'^$', index),
 )
- 
+
 if __name__ == "__main__":
     execute_from_command_line(sys.argv)
 {% endhighlight %}
@@ -151,14 +150,14 @@ The basic understanding of adding templates is through the way we define our set
 {% highlight python %}
 import os
 import sys
- 
+
 BASE_PATH = os.path.dirname(__file__)
- 
+
 from django.conf import settings
 from django.conf.urls import patterns, url
 from django.core.management import execute_from_command_line
 from django.shortcuts import render
- 
+
 settings.configure(
     DEBUG=True,
     SECRET_KEY='placerandomsecretkeyhere',
@@ -167,14 +166,14 @@ settings.configure(
         os.path.join(BASE_PATH, 'templates'),
     ),
 )
- 
+
 def index(request):
     return render(request, 'index.html', {'request': request})
- 
-urlpatterns = patterns('', 
+
+urlpatterns = patterns('',
     url(r'^$', index, name='index'),
 )
- 
+
 if __name__ == "__main__":
     execute_from_command_line(sys.argv)
 {% endhighlight %}

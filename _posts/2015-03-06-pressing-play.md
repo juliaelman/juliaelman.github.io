@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Pressing play
-comments: true
 ---
 
 ![Running Towards Tomorrow](/assets/images/running-towards-sun.jpg)
@@ -22,6 +21,6 @@ While during my time off I've been pretty quiet, I have also been *really* busy.
 
 I have also been helping lead the effort in launching the [Girl Develop It](http://girldevelopit.com) website re-design. While my role did include some developer work, I mostly help steer the project towards the finish line and keep it on track. We successfully launched February 16, 2015 and [pull requests are always welcome](https://github.com/girldevelopit/gdi-new-site)!
 
-In January 2015, I started working as the interim Director of Project and Community Engagement at [CodeMontage](http://codemontage.com), a web platform dedicated to helping coders improve their impact on the world. I've had the pleasure and honor of working with [Vanessa Hurst](https://twitter.com/dbness) and [Courteney Ervin](https://twitter.com/courteneyervin) to help connect non-profits and their open source projects with new contributors. It's been a truly rewarding experience to work on such an important goal and with such an amazing group of women! 
+In January 2015, I started working as the interim Director of Project and Community Engagement at [CodeMontage](http://codemontage.com), a web platform dedicated to helping coders improve their impact on the world. I've had the pleasure and honor of working with [Vanessa Hurst](https://twitter.com/dbness) and [Courteney Ervin](https://twitter.com/courteneyervin) to help connect non-profits and their open source projects with new contributors. It's been a truly rewarding experience to work on such an important goal and with such an amazing group of women!
 
 Throughout all of this time, I've spoken with several employers and colleagues about working with them. After figuring out and prioritizing my career goals, I am thrilled to announce that I am starting a new chapter in my resumé. But I'll leave that for another writing.
