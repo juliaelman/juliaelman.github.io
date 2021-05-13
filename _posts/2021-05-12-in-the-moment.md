@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In the moment
+title: In the Moment
 ---
 
 It was early summer 2011 and the dog needed a walk. I got my things together, strapped on my walking shoes and headed out for the usual loop through the neighborhood.
