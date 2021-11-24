@@ -5,6 +5,14 @@ permalink: /speaking/
 body_id: page-list
 ---
 
+<h3>2021</h3>
+<article>
+	<p>
+			<a href="https://governmentciomedia.com/principles-digital-service-experience">
+			Digital Service Series, Customer Experience <em>Plugging in the User Needs For Improved Experiences</em>
+		</a>
+	</p>
+</article>
 <h3>2019</h3>
 <article>
 	<p>
